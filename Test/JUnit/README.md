@@ -1,7 +1,7 @@
 # JUnit5
 ### Conditionally Disabling Tests in JUnit 5
 - Annotation
-```
+```Java
 @Retention(RetentionPolicy.RUNTIME)
 @ExtendWith(AssumeConnectionCondition.class)
 public @interface AssumeConnection {
@@ -12,7 +12,7 @@ public @interface AssumeConnection {
 ```
 
 - Condition Class
-```
+```Java
 public class AssumeConnectionCondition implements ExecutionCondition {
 
   @Override
@@ -34,7 +34,7 @@ public class AssumeConnectionCondition implements ExecutionCondition {
 ```
 
 - Test Case
-```
+```Java
 @AssumeConnection(uri = "http://my.integration.system")
 public class ConnectionCheckingJunit5Test {
 
@@ -43,5 +43,26 @@ public class ConnectionCheckingJunit5Test {
     ...
   }
 
+}
+```
+
+# DynamicTest using Java 8 Features
+```Java
+@TestFactory
+Stream<DynamicTest> dynamicTestsFromStreamInJava8() {
+         
+    DomainNameResolver resolver = new DomainNameResolver();
+         
+    List<String> domainNames = Arrays.asList(
+      "www.somedomain.com", "www.anotherdomain.com", "www.yetanotherdomain.com");
+    List<String> outputList = Arrays.asList(
+      "154.174.10.56", "211.152.104.132", "178.144.120.156");
+         
+    return inputList.stream()
+      .map(dom -> DynamicTest.dynamicTest("Resolving: " + dom, 
+        () -> {int id = inputList.indexOf(dom);
+  
+      assertEquals(outputList.get(id), resolver.resolveDomain(dom));
+    }));       
 }
 ```
