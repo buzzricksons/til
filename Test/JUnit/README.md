@@ -1,5 +1,5 @@
 # JUnit5
-### Conditionally Disabling Tests in JUnit 5
+## Conditionally Disabling Tests in JUnit 5
 - Annotation
 ```Java
 @Retention(RetentionPolicy.RUNTIME)
@@ -46,7 +46,7 @@ public class ConnectionCheckingJunit5Test {
 }
 ```
 
-# DynamicTest using Java 8 Features
+## DynamicTest using Java 8 Features
 ```Java
 @TestFactory
 Stream<DynamicTest> dynamicTestsFromStreamInJava8() {
