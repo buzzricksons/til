@@ -25,4 +25,7 @@ scp /path/to/local/file username@hostname:/path/to/remote/file
 scp username1@hostname1:/path/to/file username2@hostname2:/path/to/other/file
 ```
 
-
+## grep to file
+```Shell
+grep -n "YOUR SEARCH STRING" * > output.txt
+```
