@@ -1,3 +1,31 @@
+# History of Java
+```Text
+//Java 1.2 
+List list = new ArrayList();
+list.add(1);
+list.add(2);
+
+
+//Java 1.5
+List<Integer> list = new ArrayList<Integer>();
+list.add(1);
+list.add(2);
+
+
+//Java 1.7 
+List<Integer> list = new ArrayList<>();
+list.add(1);
+list.add(2);
+
+
+//Java 9 
+List<Integer> list = List.of(1,2);
+
+
+//Java 10 
+var list = List.of(1,2);
+```
+
 # Changing annotation values at runtime
 - Annotation Helper
 
