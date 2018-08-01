@@ -35,6 +35,7 @@ public @interface Fast {
 ```
 
 # TestFactory
+https://github.com/junit-team/junit5/issues/1101
 ```Java
 interface TestInterfaceDynamicTestsDemo {
 
