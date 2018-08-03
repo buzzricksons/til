@@ -1,0 +1,1 @@
+# SaaS, PaaS, IaaS, オンプレの違い
