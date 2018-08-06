@@ -1,4 +1,4 @@
-
+![](https://github.com/buzzricksons/til/blob/master/_Image/Java/java-8-in-action-lambdas-streams-raoul-gabriel-urma(www.ebook-dl.com)_Large.jpg)
 # Method Reference式で書くのが効率的
 ```java
 Shop::load //Method Reference
