@@ -33,10 +33,7 @@
 
 ### 1.시간의 복잡도에 나타나는 수들 (맨날 까먹으니 웬만하면 외우자)
 
-이미지
-
-
-
+![](https://github.com/buzzricksons/til/blob/master/_Image/Coding-Interview/as_1-loudon23.gif)
 
 - 1(constant): 입력자료의 수에 관계 없이 일정한 실행 시간을 갖는 알고리즘
 - log N: 만약 입력 자료의 수에 따라 실행 시간이 이 log N 의 관계를 만족한다면 N이 증가함에 따라 실행시간이 조금씩 늘어난다. 이 유형은 주로 커다란 문제를 일정한 크기를 갖는 작은 문제로 쪼갤때 나타나는 유형이다.
