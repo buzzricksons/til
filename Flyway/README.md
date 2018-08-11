@@ -54,8 +54,7 @@ PostgreSQL (including Amazon RDS and Heroku), Redshift, Vertica, H2, Hsql, Derby
 * meta\src\main\resources\db_migration直下
 
 ## Schemaファイル名
-
-
+![](https://github.com/buzzricksons/til/blob/master/_Image/Flyway/v3.jpg)
 
 * prefix: 大文字`V`を使用します。
 * version: `S5のバージョン_シーケンス`。バージョンとシーケンスの間はアンダースコア(`_`)を入れます。 (ex: 10.01の場合**10_01**)
