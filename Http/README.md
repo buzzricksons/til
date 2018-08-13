@@ -59,5 +59,3 @@ HTTP/2 対応
 
 ## HTTP/2リンク集
 - https://blog.redbox.ne.jp/http2-cdn.html
-
-# サーブページ
