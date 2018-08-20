@@ -56,5 +56,37 @@ var list = List.of(1,2);
 비트 NOT 연산자는 양쪽 비트 연산자와는 다르게 피연산자를 하나만 갖는 단항 연산자, 모든 비트값을 반대로 만든다 (0->1, 1->0)
 - ex)(~5) -> 결과 : -6
 
+# Char to int
+### lowcase
 
+```Java
+String str = "abcdef";
+char[] ch  = str.toCharArray();
+for(char c : ch) {
+    int temp = (int) c;
+    int temp_integer = 96; //for lower case
+    if(temp <= 122 & temp >= 97) {
+        System.out.print(temp-temp_integer);
+    }
+}
+
+//output:
+123456
+```
+
+### uppercase
+```Java
+String str = "DEFGHI";
+char[] ch  = str.toCharArray();
+for(char c : ch) {
+    int temp = (int)c;
+    int temp_integer = 64; //for upper case
+    if(temp<=90 & temp>=65) {
+        System.out.print(temp-temp_integer);
+    }
+}
+
+//Output: 
+456789
+```
 
