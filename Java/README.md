@@ -70,9 +70,6 @@ for(char c : ch) {
         System.out.print(temp-temp_integer);
     }
 }
-
-//output:
-123456
 ```
 
 ### uppercase
@@ -87,8 +84,5 @@ for(char c : ch) {
         System.out.print(temp-temp_integer);
     }
 }
-
-//Output: 
-456789
 ```
 
