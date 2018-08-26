@@ -64,8 +64,9 @@ String str = "abcdef";
 char[] ch  = str.toCharArray();
 for(char c : ch) {
     int temp = (int) c;
-    int temp_integer = 96; //for lower case
-    if(temp <= 122 & temp >= 97) {
+//    int temp_integer = 96;//output:123456
+    int temp_integer = (int)'a';//output:012345
+    if(temp <= 122 & temp >= 97) {//for lower case
         System.out.print(temp-temp_integer);
     }
 }
@@ -76,12 +77,13 @@ for(char c : ch) {
 
 ### uppercase
 ```Java
-String str = "DEFGHI";
+String str = "ABCDEF";
 char[] ch  = str.toCharArray();
 for(char c : ch) {
     int temp = (int)c;
-    int temp_integer = 64; //for upper case
-    if(temp<=90 & temp>=65) {
+//    int temp_integer = 64;//output:123456
+    int temp_integer = (int)'A';//output: 012345
+    if(temp<=90 & temp>=65) {//for upper case
         System.out.print(temp-temp_integer);
     }
 }
