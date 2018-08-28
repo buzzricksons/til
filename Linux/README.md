@@ -266,3 +266,8 @@ cat ~/.ssh/id_rsa.pub | (ssh user@host "cat >> ~/.ssh/authorized_keys")
 ```Shell
 grep -n "YOUR SEARCH STRING" * > output
 ```
+
+# Regex検索
+```Shell
+rpm -qa | grep '\bcurl'" -h aaa.co.jp
+```
