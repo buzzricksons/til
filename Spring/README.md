@@ -60,6 +60,22 @@ MVC 패턴의 핵심은 View는 자신이 요청할 Controller만 알고있으�
 출처: http://multifrontgarden.tistory.com/97 [우리집앞마당]
 ```
 
+```
+Data Transfer Object
+DTO is an object that carries data between processes. When you're working with a remote interface, each call it is expensive. As a result you need to reduce the number of calls. The solution is to create a Data Transfer Object that can hold all the data for the call. It needs to be serializable to go across the connection. Usually an assembler is used on the server side to transfer data between the DTO and any domain objects. It's often little more than a bunch of fields and the getters and setters for them.
+
+
+Data Access Object
+A Data Access Object abstracts and encapsulates all access to the data source. The DAO manages the connection with the data source to obtain and store data.
+The DAO implements the access mechanism required to work with the data source. The data source could be a persistent store like an RDBMS, or a business service accessed via REST or SOAP.
+The DAO abstracts the underlying data access implementation for the Service objects to enable transparent access to the data source. The Service also delegates data load and store operations to the DAO.
+
+
+Service
+Service objects are doing the work that the application needs to do for the domain you're working with. It involves calculations based on inputs and stored data, validation of any data that comes in from the presentation, and figuring out exactly what data source logic to dispatch, depending on commands received from the presentation.
+A Service Layer defines an application's boundary and its set of available operations from the perspective of interfacing client layers. It encapsulates the application's business logic, controlling transactions and coordinating responses in the implementation of its operations.
+```
+
 ### DAO
 `データの呼び出し`：単一のデータアクセスと更新処理(CRUD)。
 
