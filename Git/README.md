@@ -110,3 +110,5 @@ git config http.postBuffer 524288000
 ```
 を実行する
 
+# JetBrains.gitignore
+https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
