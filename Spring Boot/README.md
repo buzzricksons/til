@@ -37,6 +37,15 @@ apply plugin: 'groovy'
 runtime('org.postgresql:postgresql')
 ```
 
+### Using XML
+```Text
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+</dependency>
+```
+
+
 ### Live Reload
 ```Text
 runtime('org.springframework.boot:spring-boot-devtools')
