@@ -30,3 +30,6 @@ php -i | grep "Loaded Configuration File"
 https://qiita.com/keitakn/items/638b080a1420b401c315
 1. Preferences → Languages & Frameworks → PHPからインタプリタの設定を行う。
 2. PHP Language levelを7に設定し先ほどインストールした、`usr/local/php5/bin/php`を設定する。
+
+# PHPDOC reference
+http://docs.phpdoc.org/references/phpdoc/index.html
