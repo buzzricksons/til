@@ -33,3 +33,6 @@ https://qiita.com/keitakn/items/638b080a1420b401c315
 
 # PHPDOC reference
 http://docs.phpdoc.org/references/phpdoc/index.html
+
+# PHP performance tips from Google
+https://web.archive.org/web/20140625191431/https://developers.google.com/speed/articles/optimizing-php
