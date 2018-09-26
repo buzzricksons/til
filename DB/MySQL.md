@@ -15,3 +15,8 @@ https://stackoverflow.com/questions/36374335/error-in-mysql-when-setting-default
 ```Shell
 SET sql_mode = '';
 ```
+
+# Result to file
+```Shell
+mysql -uroot -p -e "select * from database_name.table_name" > filename.txt
+```
