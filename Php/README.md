@@ -36,3 +36,33 @@ http://docs.phpdoc.org/references/phpdoc/index.html
 
 # PHP performance tips from Google
 https://web.archive.org/web/20140625191431/https://developers.google.com/speed/articles/optimizing-php
+
+# double quotes vs single quotes
+### escape
+```Php
+echo 'This is \'test\' string';
+//Output: This is 'test' string
+```
+
+### single quotes
+```Php
+$count = 1;
+echo 'The count is $count';
+//Output: The count is $count
+```
+
+### double quotes
+```Php
+$count = 1;
+echo "The count is $count";
+//Output: The count is 1
+```
+
+### equal result
+```Php
+$count = 1;
+echo "The count is $count";
+echo 'The count is ' . $count;
+//両方Output: The count is 1
+```
+
