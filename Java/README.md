@@ -88,7 +88,13 @@ for(char c : ch) {
 
 # String文字列結合のパフォーマンス
 ![](https://github.com/buzzricksons/til/blob/master/_Image/Java/string_join_result_1.png)
+Performance when Concatenating Two Individual Strings (higher is better)
+
 
 ![](https://github.com/buzzricksons/til/blob/master/_Image/Java/string_join_result_2.png)
+Performance when Concatenating Ten Individual Strings (higher is better)
+
 
 ![](https://github.com/buzzricksons/til/blob/master/_Image/Java/string_join_result_3.png)
+
+Performance when Concatenating a List of 100 Strings (higher is better)
