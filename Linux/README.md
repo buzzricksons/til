@@ -271,3 +271,30 @@ grep -n "YOUR SEARCH STRING" * > output
 ```Shell
 rpm -qa | grep '\bcurl'" -h aaa.co.jp
 ```
+
+# SSH
+## 新しいSSHキーの作成
+- 現在使用している鍵の暗号強度の確認
+```Shell
+$ ssh-keygen -l -f ~/.ssh/id_rsa.pub
+4096 SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx your_email@example.com (RSA)
+```
+
+- 新しいSSHキーの作成
+1.-Cのコメント部分を入れ替えて、以下のコマンドを実行
+```Shell
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+2.SSH Keysの保存先を聞かれているので、特に気にしなければそのままEnterを入力
+```Shell
+Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+```
+
+3.パスフレーズの入力を求められるので、入力
+```Shell
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+# Enter same passphrase again: [Type passphrase again]
+```
+
+
