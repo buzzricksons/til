@@ -87,5 +87,8 @@ for(char c : ch) {
 ```
 
 # String文字列結合のパフォーマンス
+![](https://github.com/buzzricksons/til/blob/master/_Image/Java/string_join_result_1.png)
 
+![](https://github.com/buzzricksons/til/blob/master/_Image/Java/string_join_result_2.png)
 
+![](https://github.com/buzzricksons/til/blob/master/_Image/Java/string_join_result_3.png)
