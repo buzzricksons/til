@@ -117,6 +117,12 @@ scp /path/to/local/file username@hostname:/path/to/remote/file
 scp username1@hostname1:/path/to/file username2@hostname2:/path/to/other/file
 ```
 
+### 複数ファイル転送
+#### 外からここに
+```Shell
+scp ユーザー名@ホスト:/home/yoda/\{yoda201408010005.tsv,yoda201507010005.tsv,yoda201605010005.tsv\} .
+```
+
 ## その他
 | short | long | 説明 | 備考 |
 |:-------------:|:-------------:|:-------------|:-------------|
