@@ -322,7 +322,7 @@ public class LoggerReflection {
     }
 ```
 
-## Thread safe test
+## Singleton thread safe test
 ```Java
     public static void singletonThreadSafeTest() throws ExecutionException, InterruptedException {
         Callable<Singleton00> c = new Callable<Singleton00>() {
