@@ -273,6 +273,11 @@ cat ~/.ssh/id_rsa.pub | (ssh user@host "cat >> ~/.ssh/authorized_keys")
 grep -n "YOUR SEARCH STRING" * > output
 ```
 
+## csvファイルの行数確認
+```Shell
+wc -l < ファイル名.tsv
+```
+
 # Regex検索
 ```Shell
 rpm -qa | grep '\bcurl'" -h aaa.co.jp
