@@ -20,3 +20,8 @@ SET sql_mode = '';
 ```Shell
 mysql -uroot -p -e "select * from database_name.table_name" > filename.txt
 ```
+
+### ex
+```Sql
+mysql -h ホスト -uyoda -p -e "select a, b from mytable where fav= 1" dbname > result.txt
+```

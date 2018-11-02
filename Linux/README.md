@@ -117,6 +117,12 @@ scp /path/to/local/file username@hostname:/path/to/remote/file
 scp username1@hostname1:/path/to/file username2@hostname2:/path/to/other/file
 ```
 
+### 複数ファイル転送
+#### 外からここに
+```Shell
+scp ユーザー名@ホスト:/home/yoda/\{yoda201408010005.tsv,yoda201507010005.tsv,yoda201605010005.tsv\} .
+```
+
 ## その他
 | short | long | 説明 | 備考 |
 |:-------------:|:-------------:|:-------------|:-------------|
@@ -267,7 +273,39 @@ cat ~/.ssh/id_rsa.pub | (ssh user@host "cat >> ~/.ssh/authorized_keys")
 grep -n "YOUR SEARCH STRING" * > output
 ```
 
+## csvファイルの行数確認
+```Shell
+wc -l < ファイル名.tsv
+```
+
 # Regex検索
 ```Shell
 rpm -qa | grep '\bcurl'" -h aaa.co.jp
 ```
+
+# SSH
+## 新しいSSHキーの作成
+- 現在使用している鍵の暗号強度の確認
+```Shell
+$ ssh-keygen -l -f ~/.ssh/id_rsa.pub
+4096 SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx your_email@example.com (RSA)
+```
+
+- 新しいSSHキーの作成
+1.-Cのコメント部分を入れ替えて、以下のコマンドを実行
+```Shell
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+2.SSH Keysの保存先を聞かれているので、特に気にしなければそのままEnterを入力
+```Shell
+Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+```
+
+3.パスフレーズの入力を求められるので、入力
+```Shell
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+# Enter same passphrase again: [Type passphrase again]
+```
+
+
