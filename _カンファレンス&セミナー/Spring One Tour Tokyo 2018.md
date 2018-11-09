@@ -28,6 +28,12 @@ rsocket
 
 
 
+
+
+
+
+
+
 R2DBC https://www.infoq.com/jp/news/2018/10/springone-r2dbc
 reactive向けのDB
 embedded mongodb
