@@ -234,7 +234,6 @@ class DynamicTestsDemo {
 testCompile(
         'org.junit.jupiter:junit-jupiter-params:5.1.0'
 )
-
 ```
 
 # Customizing Display Names
