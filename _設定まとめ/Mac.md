@@ -141,3 +141,14 @@ yoda@localhost:~/Downloads$killall yes
 [7]-  Terminated: 15          yes > /dev/null
 [8]+  Terminated: 15          yes > /dev/null
 ```
+
+# Homebrew
+## Node & npm
+```Shell
+brew install node
+```
+
+## gulp
+```Shell
+sudo npm install gulp-cli -g
+```
