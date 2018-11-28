@@ -101,6 +101,19 @@ curl -d "first_name=Bruce&last_name=Wayne&press=%20OK%20" http://posttestserver.
 curl "http://111.111.111.111:8080/service.jsp?req=1234"
 ```
 
+## HTTPS通信
+| オプション | 内容 |
+|:-------------|:-----|
+| --sslv2 | SSL2.0で通信 |
+| --sslv3 | SSL3.0で通信 |
+| --tlsv1 | TLS1.Xで通信 |
+| --tlsv1.0 | TLS1.0で通信 |
+| --tlsv1.1 | TLS1.1で通信 |
+| --tlsv1.2 | TLS1.2で通信 |
+| -k | 危なそうな証明書でも通信してくれる |
+| -v | 通信時の色々な情報を出してくれる |
+| -s | 無駄な情報は省いてくれる |
+
 # File転送
 ### 外からここに
 ```Shell
