@@ -152,3 +152,6 @@ brew install node
 ```Shell
 sudo npm install gulp-cli -g
 ```
+
+# Add safari extension manually
+https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/
