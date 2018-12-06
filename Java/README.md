@@ -345,7 +345,25 @@ public class LoggerReflection {
     }
 ```
 
-# External properties
+# Properties
+## Properties
+```Java
+    Properties properties = new Properties();
+
+    String file = "src/test/resources/config.properties";
+    try (InputStream inputStream = new FileInputStream(file)) {
+        properties.load(inputStream);
+
+        // 値の取得
+        System.out.println(properties.getProperty("id"));
+        System.out.println(properties.getProperty("password"));
+
+    } catch (Exception ex) {
+        System.out.println(ex.getMessage());
+    }
+```
+
+## External properties
 https://crunchify.com/java-properties-file-how-to-read-config-properties-values-in-java/
 
 ## 他の方法
@@ -393,19 +411,14 @@ public static String getAppVersion() throws IOException{
 }
 ```
 
-# Properties
-```Java
-    Properties properties = new Properties();
-
-    String file = "src/test/resources/config.properties";
-    try (InputStream inputStream = new FileInputStream(file)) {
-        properties.load(inputStream);
-
-        // 値の取得
-        System.out.println(properties.getProperty("id"));
-        System.out.println(properties.getProperty("password"));
-
-    } catch (Exception ex) {
-        System.out.println(ex.getMessage());
-    }
+## From maven
+### command
+```Shell
+mvn clean install -Dpro.env="stg"
 ```
+
+### Java
+```Java
+    System.getProperty("pro.env");//stg
+```
+
