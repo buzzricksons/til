@@ -422,3 +422,6 @@ mvn clean install -Dpro.env="stg"
     System.getProperty("pro.env");//stg
 ```
 
+# Etc
+- Google Java Style Guide: https://google.github.io/styleguide/javaguide.html
+
