@@ -28,3 +28,4 @@ OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.1+13, mixed mode)
 ## 5.IDEに追加する
 File→Project Structureで
 No.2のjdk-11.0.1+13を選択する
+![](https://github.com/buzzricksons/til/blob/master/_Image/_設定まとめ/jdk11.png)
