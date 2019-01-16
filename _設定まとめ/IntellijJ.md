@@ -44,10 +44,10 @@ Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の
 - identifier under caret (write): Backgroundを531314に変更
 
 ### 適用前
-![](https://lh3.google.com/u/0/d/0B2Yxg0Epe-6_UWs3Yl9SXy05d1k=w1366-h383-iv1)
+![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/before.jpg)
 
 ### 適用後
-![](https://lh3.google.com/u/0/d/0B2Yxg0Epe-6_NDQ5NnMxQS0zeW8=w1366-h383-iv1)
+![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/after.jpg)
 
 # ショートカット
 | 機能名 | Mac | Window |
