@@ -1,6 +1,6 @@
 ```
 /* 
- * S5 Custom CSS
+ * Luke Custom CSS
  * author:luke, a-kato
  */ 
 /*--------------------For本文--------------------*/ 
