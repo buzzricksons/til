@@ -1,6 +1,9 @@
 # TODO List
-* Change date and time format.
-* 
+* Change date and time format
+* Startup program: Win + R
+```Shell
+shell:startup
+```
 
 # Install app
 * AutoHotkey
@@ -9,6 +12,7 @@
 	* https://www.vector.co.jp/soft/winnt/util/se472890.html
 * Sublime Text
 * Visualstudio code
+* Teraterm
 
 
 # AutoHotkey
