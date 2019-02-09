@@ -1,7 +1,8 @@
-# Custom Style Text
+# Custom Style Text folder
 ```
 ~/Library/Application Support/Motion/Library/Text Styles
 ```
+
 # Short cut
 | Title | Short Cut |
 | ------------- |:-------------:|
