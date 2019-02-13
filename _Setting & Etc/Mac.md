@@ -1,9 +1,11 @@
 # 初期設定
-## 設定 → トラックパッド → タップでクリックを有効にする
-## karabinerのインストール
-### 共通
+- 設定 → トラックパッド → タップでクリックを有効にする
+- karabinerのインストール
+## 共通
 無し
 
+# キーボード
+## Keyboard
 ### マックの標準キーボード(英語バージョン)の場合
 #### Complex Modifications（import）
 - コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな）（rev 2）
@@ -11,11 +13,12 @@
 #### Simple Modifications
 | From key | To key |
 | ------------- |:-------------:|
-| caps lock | right control |
+| caps lock | left control |
 | left control | caps lock |
 
 ### Filco キーボードの場合
-#### Simple Modifications
+#### JISキーボード
+##### Simple Modifications
 | From key | To key |
 | ------------- |:-------------:|
 | PCキーボードのかなキー | かなキー |
@@ -26,9 +29,32 @@
 
 ※Fキーがうまく聞かない場合、USキーボードの場合Function Keys>Use All F1, F2,...にチェック
 
+#### US キーボード
+##### Simple Modifications
+| From key | To key |
+| ------------- |:-------------:|
+| left gui | left option |
+| left alt | left command |
+| right alt | right command |
+| application | fn |
+| right shift | delete forward |
+| delete forward | right shift |
+
 ## Google 日本語入力をインストール
 https://www.google.co.jp/ime/
 
+## 言語変換設定
+https://github.com/buzzricksons/etc-korean-for-karabiner
+
+## off the correct spelling
+Keyboard -> Text -> off the belows
+```
+Correct spelling automatically
+Capitalize words automatically
+Add period with double-space
+```
+
+# その他
 ## マックのbarに自分の名前を設定
 - http://insidemac.tistory.com/21
 
@@ -43,6 +69,18 @@ defaults write com.apple.dock autohide -bool true && defaults write com.apple.do
 defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && defaults delete com.apple.dock autohide-time-modifier && killall Dock
 ```
 
+## プロフィール画像の変更
+https://macnews.tistory.com/4202
+
+## Finder
+```
+View -> Show Path Bar
+view -> Show Status Bar
+```
+
+
+
+# Install app
 ## homebrewのインストール
 https://brew.sh/index_ja
 
