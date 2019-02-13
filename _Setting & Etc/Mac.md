@@ -55,6 +55,14 @@ Add period with double-space
 ```
 
 # その他
+## safari
+```
+Preference -> Advanced
+```
+- check `Show full website address`
+- set Default encoding to `UTF-8`
+
+
 ## マックのbarに自分の名前を設定
 - http://insidemac.tistory.com/21
 
@@ -78,8 +86,6 @@ View -> Show Path Bar
 view -> Show Status Bar
 ```
 
-
-
 # Install app
 ## homebrewのインストール
 https://brew.sh/index_ja
@@ -89,6 +95,25 @@ https://www.spectacleapp.com/
 
 ## iterm2のインストール
 https://www.iterm2.com/
+
+### change iterm2 color
+In your .bash_profile set CLICOLOR before setting TERM:
+
+```
+# Set CLICOLOR if you want Ansi Colors in iTerm2 
+export CLICOLOR=1
+
+# Set colors to match iTerm2 Terminal Colors
+export TERM=xterm-256color
+```
+
+save bash file and source:
+```
+source ~/.bash_profile
+```
+
+Then, in your iTerm2 Preferences > Profiles > Terminal > Report Terminal Type, set to either xterm-256color or xterm
+Close iTerm2, restart it and type ls. That did the trick for me.
 
 ## NeoVimのインストール
 https://neovim.io/
