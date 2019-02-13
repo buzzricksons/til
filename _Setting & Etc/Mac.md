@@ -63,6 +63,9 @@ Preference -> Advanced
 - set Default encoding to `UTF-8`
 
 
+### Add safari extension manually
+https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/
+
 ## マックのbarに自分の名前を設定
 - http://insidemac.tistory.com/21
 
@@ -126,6 +129,9 @@ https://clipy-app.com/
 
 ## Go2Shellのインストール
 http://macnews.tistory.com/1216
+https://dev.classmethod.jp/tool/go2shell/
+
+## Sourcetreeのインストール
 
 ## システム環境設定
 ### セキュリティとプライバシー
@@ -215,6 +221,3 @@ brew install node
 ```Shell
 sudo npm install gulp-cli -g
 ```
-
-# Add safari extension manually
-https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/

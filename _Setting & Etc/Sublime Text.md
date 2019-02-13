@@ -1,7 +1,10 @@
 # Pretty JSON
-1. Ctrl + Shift + pでパッケージインストールを選択する。
+1. Cmd + Shift + pでパッケージインストールを選択する。
 2. Pretty JSONを検索してインストール
-3. EditorでJSONを選択し `Ctrl + Alt + j`で変更できる。
+3. EditorでJSONを選択し `Ctrl + Cmd + J`で変更できる。
 
 # Tabキー自動完成有効化
 https://beadored.com/sublime-text-3-suggest-tab/
+
+# install japanese and etc
+https://reporepo.hatenablog.com/entry/2018/05/16/155000
