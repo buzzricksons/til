@@ -5,7 +5,7 @@
 shell:startup
 ```
 
-# Install app
+## Install app
 * AutoHotkey
 	* https://www.autohotkey.com/
 * clibor
@@ -13,6 +13,7 @@ shell:startup
 * Sublime Text
 * Visualstudio code
 * Teraterm
+* WinSCP
 
 
 # AutoHotkey
@@ -37,5 +38,9 @@ Send ^c
 return
 ```
 
-
+# Etc
+### Text editor in powershell
+```shell
+bash -c "vi filename"
+```
 
