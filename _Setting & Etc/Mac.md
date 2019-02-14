@@ -7,6 +7,7 @@
 
 ## Dock自動最小化
 ターミナルで下記を実行する
+
 ### 設定
 ```Shell
 defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock
@@ -26,7 +27,7 @@ defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohi
 http://macnews.tistory.com/5176
 
 ## マックのbarに自分の名前を設定
-- http://insidemac.tistory.com/21
+http://insidemac.tistory.com/21
 
 ## プロフィール画像の変更
 https://macnews.tistory.com/4202
@@ -43,9 +44,6 @@ view -> Show Status Bar
 
 ## Keyboard
 ### マックの標準キーボード(英語バージョン)の場合
-#### Complex Modifications（import）
-- コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな）（rev 2）
-
 #### Simple Modifications
 | From key | To key |
 | ------------- |:-------------:|
@@ -65,7 +63,7 @@ view -> Show Status Bar
 
 ※Fキーがうまく聞かない場合、USキーボードの場合Function Keys>Use All F1, F2,...にチェック
 
-#### Mac US キーボード
+#### US キーボード
 ##### Simple Modifications
 | From key | To key |
 | ------------- |:-------------:|
