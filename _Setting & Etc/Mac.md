@@ -43,13 +43,6 @@ view -> Show Status Bar
 まずKarabinerをインストールする
 
 ## Keyboard
-### マックの標準キーボード(英語バージョン)の場合
-#### Simple Modifications
-| From key | To key |
-| ------------- |:-------------:|
-| caps lock | left control |
-| left control | caps lock |
-
 ### Filco キーボードの場合
 #### JISキーボード
 ##### Simple Modifications
