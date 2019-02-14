@@ -159,6 +159,9 @@ https://neovim.io/
 ## sublime textのインストール
 https://www.sublimetext.com/3
 
+### 他の設定
+https://github.com/buzzricksons/til/blob/master/_Setting%20%26%20Etc/Sublime%20Text.md
+
 ## clipyのインストール
 https://clipy-app.com/
 
