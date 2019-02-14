@@ -98,6 +98,9 @@ Add period with double-space
 
 # Browser
 ## Chrome
+### Add on
+- Markdownhere
+    - https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa/related?utm_source=chrome-ntp-icon
 
 ## Safari
 ```
@@ -105,6 +108,10 @@ Preference -> Advanced
 ```
 - check `Show full website address`
 - set Default encoding to `UTF-8`
+
+### Add on
+- Markdownhere
+    - https://markdown-here.com/get.html
 
 ### Without CSS paste in safari
 ```Shell
