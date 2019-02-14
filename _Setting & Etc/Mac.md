@@ -1,10 +1,46 @@
 # 初期設定
-- 設定 → トラックパッド → タップでクリックを有効にする
-- karabinerのインストール
-## 共通
-無し
+## Trackpad 
+設定 → トラックパッド → タップでクリックを有効にする
+
+## Mission Control
+設定 → ミッションコントロール → 最新の使用状況に基づいて操作スペースを自動的に並べ替えるのチェックを外す
+
+## Dock自動最小化
+ターミナルで下記を実行する
+### 設定
+```Shell
+defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock
+```
+
+### 元に戻す
+```Shell
+defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && defaults delete com.apple.dock autohide-time-modifier && killall Dock
+```
+
+## システム環境設定
+### セキュリティとプライバシー
+- アクセシビリティの修正
+- フルディスクアクセス修正
+
+## Touch Barの設定
+http://macnews.tistory.com/5176
+
+## マックのbarに自分の名前を設定
+- http://insidemac.tistory.com/21
+
+## プロフィール画像の変更
+https://macnews.tistory.com/4202
+
+## Finder
+Check belows
+```
+View -> Show Path Bar
+view -> Show Status Bar
+```
 
 # キーボード
+まずKarabinerをインストールする
+
 ## Keyboard
 ### マックの標準キーボード(英語バージョン)の場合
 #### Complex Modifications（import）
@@ -29,7 +65,7 @@
 
 ※Fキーがうまく聞かない場合、USキーボードの場合Function Keys>Use All F1, F2,...にチェック
 
-#### US キーボード
+#### Mac US キーボード
 ##### Simple Modifications
 | From key | To key |
 | ------------- |:-------------:|
@@ -43,6 +79,14 @@
 ## Google 日本語入力をインストール
 https://www.google.co.jp/ime/
 
+### 言語変換 Shortcut
+```
+ひらがな変換: Ctrl+J
+カタカナ変換: Ctrl+K
+英語変換: Ctrl+L
+半角変換: Ctrl+;
+```
+
 ## 言語変換設定
 https://github.com/buzzricksons/etc-korean-for-karabiner
 
@@ -54,44 +98,37 @@ Capitalize words automatically
 Add period with double-space
 ```
 
-# その他
-## safari
+# Browser
+## Chrome
+
+## Safari
 ```
 Preference -> Advanced
 ```
 - check `Show full website address`
 - set Default encoding to `UTF-8`
 
+### Without CSS paste in safari
+```Shell
+Shift + Option + Command + v
+```
 
 ### Add safari extension manually
 https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/
 
-## マックのbarに自分の名前を設定
-- http://insidemac.tistory.com/21
-
-## Dock自動最小化
-### 設定
-```Shell
-defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock
-```
-
-### 元に戻す
-```Shell
-defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && defaults delete com.apple.dock autohide-time-modifier && killall Dock
-```
-
-## プロフィール画像の変更
-https://macnews.tistory.com/4202
-
-## Finder
-```
-View -> Show Path Bar
-view -> Show Status Bar
-```
-
 # Install app
 ## homebrewのインストール
 https://brew.sh/index_ja
+
+### Node & npm
+```Shell
+brew install node
+```
+
+### gulp
+```Shell
+sudo npm install gulp-cli -g
+```
 
 ## spectacleインストール
 https://www.spectacleapp.com/
@@ -129,40 +166,20 @@ https://clipy-app.com/
 
 ## Go2Shellのインストール
 http://macnews.tistory.com/1216
-https://dev.classmethod.jp/tool/go2shell/
 
-## Sourcetreeのインストール
-
-## システム環境設定
-### セキュリティとプライバシー
-- アクセシビリティの修正
-- フルディスクアクセス修正
-
-## その他
-設定 → ミッションコントロール → 最新の使用状況に基づいて操作スペースを自動的に並べ替えるのチェックを外す
-
-# keyboardの言語変換
-```
-ひらがな変換: Ctrl+J
-カタカナ変換: Ctrl+K
-英語変換: Ctrl+L
-半角変換: Ctrl+;
+### ターミナルをiterm2に変更
+```Shell
+$ open -a Go2Shell --args config
 ```
 
-# Touch Barの設定
-http://macnews.tistory.com/5176
-
-# Macのキャプチャ
+# その他
+## Macのキャプチャ
 http://inforati.jp/apple/mac-tips-techniques/system-hints/how-to-capture-a-specific-window-with-macos-screen-shot-function.html
 
-# view hidden file
+## view hidden file
+Finderで下記を実行する
 ```Shell
 Shift + Command + .
-```
-
-# No Css paste in safari
-```Shell
-Shift + Option + Command + v
 ```
 
 # Mac OS 쓸모없는 파일 정리를 통한 하드 공간 확보
@@ -173,7 +190,7 @@ https://www.letmecompile.com/mac-os-%EC%93%B8%EB%AA%A8%EC%97%86%EB%8A%94-%ED%8C%
 sudo spctl --master-disable
 ```
 
-# CPU 100%
+# CPU使用率 100%を起こす
 ### On
 
 1.コマンド実行
@@ -209,15 +226,4 @@ yoda@localhost:~/Downloads$killall yes
 [6]   Terminated: 15          yes > /dev/null
 [7]-  Terminated: 15          yes > /dev/null
 [8]+  Terminated: 15          yes > /dev/null
-```
-
-# Homebrew
-## Node & npm
-```Shell
-brew install node
-```
-
-## gulp
-```Shell
-sudo npm install gulp-cli -g
 ```
