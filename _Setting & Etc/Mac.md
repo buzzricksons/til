@@ -42,6 +42,10 @@ view -> Show Status Bar
 # キーボード
 まずKarabinerをインストールする
 
+## F Key
+check belows
+- `USE F1, F2, etc. keys as standard function keys`
+
 ## Keyboard
 ### Filco キーボードの場合
 #### JISキーボード

@@ -8,3 +8,8 @@ https://beadored.com/sublime-text-3-suggest-tab/
 
 # install japanese and etc
 https://reporepo.hatenablog.com/entry/2018/05/16/155000
+
+# Install Package
+Cmd + Shift + P
+- ConvertoToUTF8
+- Codecs33
