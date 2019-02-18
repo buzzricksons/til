@@ -266,8 +266,13 @@ ssh config
 AddKeysToAgent yes
 UseKeychain yes
 HostKeyAlgorithms +ssh-dss
+
 Host *
     ForwardAgent yes
+
+Host loginp
+    HostName xxx.xxxx.xxx
+    User yoda
 ```
 
 ## SSH public key add to Remote server
