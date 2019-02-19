@@ -120,3 +120,12 @@ cd repo
 git remote set-url origin https://github.com/hoge/repo.git
 git push origin --all
 ```
+
+上記方法でも大体の移行はできますが、ローカルに落としていないbranchやtagなどを移行することはできなかったので、以下の手段に切り替えました。
+```Shell
+git clone --mirror ssh://git@gitlab.xxx.com/hoge/repo.git
+cd repo.git
+git remote add --mirror=push github ssh://git@github.com/hoge/repo.git
+git push github
+```
+こうすることで、ローカルにブランチを落とすことなく移動することができます。
