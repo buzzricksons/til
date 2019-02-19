@@ -112,3 +112,11 @@ git config http.postBuffer 524288000
 
 # JetBrains.gitignore
 https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+
+# レポジトリの移行(gitlab -> github)
+```Shell
+git clone https://gitlab.xxx.com/hoge/repo.git
+cd repo
+git remote set-url origin https://github.com/hoge/repo.git
+git push origin --all
+```
