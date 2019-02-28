@@ -17,7 +17,8 @@
 ```
 
 # compile
-
+1.Install the `Code Runner Extension` (https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+2. Select file and Mouse right click -> run code
 
 
 # change version
