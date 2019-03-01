@@ -86,6 +86,11 @@ PS1='\e[92m[\u@\h:\e[95m/\W\e[92m]\$ '
 
 `/etc/bashrc`ファイルに追加する。
 
+すぐ反映さえるためには
+```Shell
+$ source /etc/bashrc
+```
+
 # Curl
 https://curl.haxx.se/
 
