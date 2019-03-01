@@ -17,8 +17,11 @@
 ```
 
 # compile
+https://stackoverflow.com/questions/30269449/how-do-i-set-up-visual-studio-code-to-compile-c-code
+
 1.Install the `Code Runner Extension` (https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 2. Select file and Mouse right click -> run code
+
 
 
 # change version
