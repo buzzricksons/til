@@ -331,4 +331,7 @@ Enter passphrase (empty for no passphrase): [Type a passphrase]
 # Enter same passphrase again: [Type passphrase again]
 ```
 
-
+## Check SSH port
+```Shell
+$ sudo grep Port /etc/ssh/sshd_config
+```
