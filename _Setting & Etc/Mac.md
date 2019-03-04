@@ -44,13 +44,16 @@ http://insidemac.tistory.com/21
 https://macnews.tistory.com/4202
 
 ## Finder
-
-Check belows
+### Check belows
 
 ```
 View -> Show Path Bar
 view -> Show Status Bar
 ```
+
+### vieiw extension
+Finder -> Preferences -> Advanced -> Show all filename extensions
+
 
 # キーボード
 
