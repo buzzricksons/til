@@ -31,6 +31,23 @@ git config --global core.autoCRLF false
     autoCRLF = false
 ```
 
+
+# Setting your email address for every repository on your computer
+### 確認
+```Text
+$ git config --global user.email
+```
+
+### 設定
+```Text
+$ git config --global user.email "email@example.com"
+```
+
+# 認証を保存する
+```
+git config credential.helper store
+```
+
 # 既存のフォルダをgit repositoryにpushする方法
 ```
 git init gitレポジトリのアドレス
@@ -82,22 +99,6 @@ ddl/yoda_entity_postgresql.sql
 git whatchanged --since '01/14/2017' --until '02/01/2017' --oneline --name-only --pretty=format: | sort | uniq | grep -e sql -e meta
 ```
 
-# Setting your email address for every repository on your computer
-### 確認
-```Text
-$ git config --global user.email
-```
-
-### 設定
-```Text
-$ git config --global user.email "email@example.com"
-```
-
-# 認証を保存する
-```
-git config credential.helper store
-```
-
 # エラー
 ## fatal: The remote end hung up unexpectedly
 pushする時
@@ -129,3 +130,24 @@ git remote add --mirror=push github ssh://git@github.com/hoge/repo.git
 git push github
 ```
 こうすることで、ローカルにブランチを落とすことなく移動することができます。
+
+# duplicate repository
+1.Open Terminal.
+
+Cr2.eate a bare clone of the repository.
+```Shell
+$ git clone --bare https://github.com/exampleuser/old-repository.git
+```
+
+3.Mirror-push to the new repository.
+```Shell
+$ cd old-repository.git
+$ git push --mirror https://github.com/exampleuser/new-repository.git
+```
+
+4.Remove the temporary local repository you created in step 1.
+
+```Shell
+$ cd ..
+$ rm -rf old-repository.git
+```
