@@ -134,7 +134,7 @@ git push github
 # duplicate repository
 1.Open Terminal.
 
-Cr2.eate a bare clone of the repository.
+2.Create a bare clone of the repository.
 ```Shell
 $ git clone --bare https://github.com/exampleuser/old-repository.git
 ```
