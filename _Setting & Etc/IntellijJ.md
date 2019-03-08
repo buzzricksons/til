@@ -57,7 +57,7 @@ Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の
 | Column selection mode | `Shit` + `Command` + `8` | `Alt` + `Shift` + `Insert` |
 | Organize imports | `Ctrl` + `Option` + `O` | `Ctrl` + `Alt` + `O` |
 | remove unused import all |  | `Ctrl` + `Shift` + `Alt` + `L` |
-| Go to Line | `Option` + `L` | `Ctrl` + `G` |
+| Go to Line | `Command` + `L` | `Ctrl` + `G` |
 | Update Project | `Command` + `T` | `Ctrl` + `T` |
 | View Javadoc | `F1` | `Ctrl` + `Q` |
 | Scratch | | `Ctrl` + `Shift` + `Alt` + `Insert` |
@@ -121,7 +121,7 @@ Help -> Edit Custom Vm Options
 -XX:+HeapDumpOnOutOfMemoryError
 -XX:-OmitStackTraceInFastThrow
 
--Duser.name=HyungCheol Kim
+-Duser.name=Hyungcheol Kim
 ```
 
 # Remote Host
