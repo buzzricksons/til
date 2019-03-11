@@ -84,4 +84,9 @@ A Service Layer defines an application's boundary and its set of available opera
 
 # @Bean vs @Component
 - @Bean: 개발자가 컨트롤이 불가능한 외부 라이브러리의 경우
+    - @Bean은 @Configuration으로 선언된 클래스 내에 있는 메소드를 정의할 때 사용한다. 이 메소드가 반환하는 객체가 bean이 되며 default로 메소드 이름이 bean의 이름이 된다.
 - @Component: 개발자가 직접 컨트롤이 가능한 클래스들
+    - @Component는 클래스 상단에 적으며 그 default로 클래스 이름이 bean의 이름이 된다. 또한 spring에서 자동으로 찾고 관리해주는 bean이다.
+
+
+
