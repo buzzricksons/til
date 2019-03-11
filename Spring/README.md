@@ -82,3 +82,6 @@ A Service Layer defines an application's boundary and its set of available opera
 ### Service
 `データの加工`：複数のDAOを呼び出し、ユーザーの要求に従って加工(ビジネスロジック)する。つまりトランザクション単位である。
 
+# @Bean vs @Component
+- @Bean: 개발자가 컨트롤이 불가능한 외부 라이브러리의 경우
+- @Component: 개발자가 직접 컨트롤이 가능한 클래스들
