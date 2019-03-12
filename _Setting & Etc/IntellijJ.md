@@ -138,3 +138,9 @@ Help -> Edit Custom Vm Options
 
 ### IntelliJで開発時に、SFTPで高速なファイル同期によるディスク共有をする 
 https://qiita.com/eudyptesc/items/48e27921c08966885231
+
+# Preference
+1. folderble source
+2. view white space
+
+
