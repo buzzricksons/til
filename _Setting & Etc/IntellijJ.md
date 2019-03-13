@@ -35,6 +35,9 @@ https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
 ## Grep console
 https://plugins.jetbrains.com/plugin/7125-grep-console
 
+## Markdown plugin
+
+
 # ハイライトのカラーを見やすくする
 http://stackoverflow.com/questions/26352197/how-to-change-usage-highlight-color-in-intellij-idea
 Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の好みで修正する。
