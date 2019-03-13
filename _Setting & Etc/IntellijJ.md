@@ -70,7 +70,10 @@ Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の
 | Start ssh seissions | `Ctrl` + `Shift` + `A` |  |
 | bookmark | `F3` | ? |
 | view bookmark | `Command` + `F3` | ? |
-| view methods | `Command` + `F12` | ? |
+| Declaration | `Command` + `B` | ? |
+| Show Usages | `Command` + `Option` + `F7` | ? |
+| Implementations | `Command` + `Option` + `B` | ? |
+| Find Usages | `Option` + `F7` | ? |
 
 # Gitの同期化エラー発生
 ```
