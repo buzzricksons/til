@@ -173,6 +173,11 @@ brew install node
 sudo npm install gulp-cli -g
 ```
 
+### tree
+```Shell
+$ brew install tree
+```
+
 ## spectacleインストール
 
 https://www.spectacleapp.com/
