@@ -57,7 +57,7 @@ Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の
 |:-----|:-----|:-----|
 | Extend Selection | `Option` + `↑` | `Ctrl` + `W` |
 | Shrink Selection | `Option` + `↓` | `Ctrl` + `Shift` + `w` |
-| Column selection mode | `Shit` + `Command` + `8` | `Alt` + `Shift` + `Insert` |
+| Column selection mode | `Shift` + `Command` + `8` | `Alt` + `Shift` + `Insert` |
 | Organize imports | `Ctrl` + `Option` + `O` | `Ctrl` + `Alt` + `O` |
 | remove unused import all |  | `Ctrl` + `Shift` + `Alt` + `L` |
 | Go to Line | `Command` + `L` | `Ctrl` + `G` |
