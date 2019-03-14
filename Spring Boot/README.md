@@ -325,7 +325,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 ## build成果物をwarにpackaging
 https://www.mkyong.com/spring-boot/spring-boot-deploy-war-file-to-tomcat/
 
-## Multi variable of @Value
+## @Value
+### Multiple variable 1
+
 - Java
 ```Java
 @Value("#{'${my.list.of.strings}'.split(',')}") 
@@ -336,3 +338,17 @@ private List<String> myList;
 ```text
 my.list.of.strings=ABC,CDE,EFG
 ```
+
+### Multiple variable 2
+- Java
+```Java
+@Value("${hoge.fuga}")
+private Map<String, String> fuga;
+```
+
+- properties
+```text
+hoge.fuga.key1 = val1
+hoge.fuga.key2 = val2
+```
+
