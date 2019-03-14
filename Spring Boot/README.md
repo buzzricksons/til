@@ -326,6 +326,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 https://www.mkyong.com/spring-boot/spring-boot-deploy-war-file-to-tomcat/
 
 ## @Value
+https://qiita.com/rubytomato@github/items/d86039eca031ac1ed511
+
 ### Multiple variable 1
 
 - Java
