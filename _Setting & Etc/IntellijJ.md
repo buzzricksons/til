@@ -163,3 +163,6 @@ https://qiita.com/eudyptesc/items/48e27921c08966885231
 - Show tabs in one row
 - Hide tabs if there is no space
 
+### Editor > File Encodings > check belows
+- Transparent native-to-ascii conversion
+
