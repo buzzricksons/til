@@ -146,20 +146,20 @@ Help -> Edit Custom Vm Options
 https://qiita.com/eudyptesc/items/48e27921c08966885231
 
 # Preference
-0.Appearance & Behavior > Appearance > check belows
+### Appearance & Behavior > Appearance > check belows
 - Show memory indicator
 
-1.Editor > General > Code Folding > check belows only
+### Editor > General > Code Folding > check belows only
 - File header
 - Imports
 - XML entities
 - Data URIs
 - l18n strings
 
-2.Editor > General > Appearance > check belows
+### Editor > General > Appearance > check belows
 - Show whitespaces
 
-3.Editor > General > Editor Tabs > uncheck belows
+### Editor > General > Editor Tabs > uncheck belows
 - Show tabs in one row
 - Hide tabs if there is no space
 

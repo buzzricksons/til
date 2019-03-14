@@ -247,7 +247,7 @@ public class AbstractTests {
 ```
 
 
-# その他
+# Etc
 ## 複数のTomcatの同時起動
 こちらでは3台のTomcatを同時起動する場合の例です。(ポート番号：8880, 8881, 8882)
 
@@ -324,3 +324,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 ## build成果物をwarにpackaging
 https://www.mkyong.com/spring-boot/spring-boot-deploy-war-file-to-tomcat/
+
+## Multi variable of @Value
+- Java
+```Java
+@Value("#{'${my.list.of.strings}'.split(',')}") 
+private List<String> myList;
+```
+
+- properties
+```text
+my.list.of.strings=ABC,CDE,EFG
+```
