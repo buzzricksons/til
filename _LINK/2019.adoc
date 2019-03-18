@@ -20,3 +20,7 @@ https://docs.microsoft.com/ko-kr/azure/architecture/patterns/
 
 # Text Editor inside PowerShell
 https://medium.com/powershell-explained/text-editor-inside-powershell-22d2f5e748b8
+
+# 2019/03/18/Mon
+### Rundeck
+https://www.rundeck.com/open-source
