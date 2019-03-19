@@ -1,7 +1,7 @@
 # はじめに
 JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
 
-##
+## Maven dependency
 ```xml
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -22,6 +22,33 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
             <scope>test</scope>
         </dependency>
 ```
+
+## For Spring Boot test
+### dependency exclusion
+#### pom.xml
+```xml
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+      <version>2.0.5.RELEASE</version>
+      <exclusions>
+        <exclusion>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+```
+
+#### Test Class
+```Java
+@ExtendWith(SpringExtension.class)
+@SpringBootTest
+@TestPropertySource(locations = "classpath:configuration/dev/batch.properties")
+public class TestXXX {
+```
+
 
 # @Before, @After
 ```text
