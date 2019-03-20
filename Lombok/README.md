@@ -219,7 +219,8 @@ public class Luke {
 }
 ```
 
-
+# Constructor
+https://blog.y-yuki.net/entry/2016/10/13/003000
 
 
 
