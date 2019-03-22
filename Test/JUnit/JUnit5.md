@@ -23,6 +23,23 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
         </dependency>
 ```
 
+### Build
+```xml
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>2.22.0</version>
+      </plugin>
+    </plugins>
+  </build>
+```
+
+
 ## For Spring Boot test
 ### dependency exclusion
 #### pom.xml
