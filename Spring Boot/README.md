@@ -354,3 +354,5 @@ hoge.fuga.key1 = val1
 hoge.fuga.key2 = val2
 ```
 
+# Spring Batch
+https://dayone.me/1Sm6zrv
