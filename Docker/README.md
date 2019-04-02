@@ -14,7 +14,11 @@
 
 ## CentOS/Ansible
 ### ダウンロード
-* Power Shellにて`docker pull ansible/centos7-ansible`を実行
+```Shell
+$ docker pull ダウンロードするイメージ名:バージョン(省略可能)
+```
+
+* ex: `docker pull ansible/centos7-ansible`
 
 ### 実行
 * 現在のdockerイメージの確認
@@ -30,6 +34,42 @@ d4w/nsenter               latest              9e4f13a0901e        10 weeks ago  
 ```Shell
 docker run --rm -it ansible/centos7-ansible /bin/bash
 ```
+
+# Docker run詳細
+* -c: cpu set(default: 1024)
+    * ex: `-c 2048`
+* -m: limit memory. If exceed setting memory, container will be distrupted.
+* execute when start up: 
+    * ex: `ubuntu:latest bin/bash`
+* -i: interactive. I/O内容を出力する
+* -t: terminalと似ている環境が使える。※-iと-tを同時に使う場合は`-it`を使用
+* -v: ホストのOSフォルダとコンテイナーの内部フォルダを結ぶ.
+    * ex: `-v ホストのOSフォルダ:コンテイナーの内部フォルダ`
+    * ex: `docker run -i -t -v /testdata:/test --name volume ubuntu:latest bin/bash`
+    * ※Permissionエラーが起きる場合、`-privileged `を使えば解決できる
+* --volumes-from: すでにホストにつながっているコンテイナーAを他のコンテイナーBに結ぶ。つまり`ホストフォルダ ← コンテイナーAフォルダ ← コンテイナーBフォルダ`
+    * ex: `docker run -i -t --volumes-from volume --name connect1 ubuntu:latest bin/bash`
+* -p: ポートを開放しホストのポートとつなぐ。(ホストのポート番号:コンテイナーポート番号)
+    * ex: `docker run -i -t -p 5555:80 --name apache ubuntu:latest bin/bash`
+* -expose: ポートの開放のみ行う
+* -rm: プロセス終了の時、コンテイナーを削除する
+
+# その他のコマンド
+* ps: view Container list.-aを付けない場合は実行中のリストのみ出力する
+    * ex: `docker ps -a`
+* start: docker start <コンテイナー名>
+    * ex: `docker start test`
+* stop: docker stop <コンテイナー名>
+    * ex: `docker stop test`
+* attach: コンテイナーに接続する。docker attach <コンテイナー名>
+    * ex: `docker attach test`
+    * コンテイナー停止及び接続解除: exit
+    * コンテイナー接続のみ解除: Ctrl + P, Ctrl + Q
+* rm: コンテイナー削除。docker rm <コンテイナー名>
+    * ex: `docker rm test`
+* rmi: イメージ削除。docker rmi <イメージ名>
+
+
 
 # Docker imageの作成
 ## Dcokerファイルが入っている場所に移動
