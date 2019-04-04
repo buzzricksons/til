@@ -5,6 +5,8 @@ https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-nod
 ### Install nodebrew
 ```Shell
 $ brew install nodebrew
+$ nodebrew setup
+$ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile
 ```
 
 ### check nodebrew version

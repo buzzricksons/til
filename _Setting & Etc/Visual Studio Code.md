@@ -1,6 +1,9 @@
 # Basic setting
 ## Plug in
-
+- Debugger for Chrome
+- HTML snippets
+- Prettier - Code formatter
+- TSLint
 
 
 # Custom setting
