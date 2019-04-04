@@ -18,10 +18,10 @@
     "sshfs.configs": [
         {
             "label": "log-in-stage",
-            "root": "/home/kimhyungcheo01",
-            "host": "stg-loginjpe1101z.stg.jp.local",
+            "root": "/home/yoda01",
+            "host": "XXX.XXX.CO.JP",
             "port": 22,
-            "username": "kimhyungcheo01",
+            "username": "yoda01",
             "password": true,
             "name": "sample"
         }
