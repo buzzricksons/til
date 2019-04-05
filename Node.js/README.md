@@ -34,7 +34,7 @@ $ nodebrew install-binary {version}
 $ nodebrew install-binary latest
 ```
 
-## ec2にインストールする手順
+# ec2にインストールする手順
 ```Shell
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```

@@ -356,3 +356,6 @@ hoge.fuga.key2 = val2
 
 # Spring Batch
 https://dayone.me/1Sm6zrv
+
+## Disablel Spring Batch Auto Start
+https://stackoverflow.com/questions/22318907/how-to-stop-spring-batch-scheduled-jobs-from-running-at-first-time-when-executin
