@@ -91,6 +91,12 @@ PS1='\e[92m[\u@\h:\e[95m/\W\e[92m]\$ '
 $ source /etc/bashrc
 ```
 
+# Change timezone
+```Shell
+# mv /etc/localtime /etc/localtime.backup
+# ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+```
+
 # Curl
 https://curl.haxx.se/
 
