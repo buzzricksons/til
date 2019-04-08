@@ -19,7 +19,7 @@
 - https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B0%84_%EB%B3%B5%EC%9E%A1%EB%8F%84
 - https://joshuajangblog.wordpress.com/2016/09/21/time_complexity_big_o_in_easy_explanation/
 - http://gwpark.tistory.com/1731
-- http://blog.naver.com/PostView.nhn?blogId=madplay&logNo=220195503400
+- https://madplay.github.io/post/time-complexity-space-complexity
 
 # 퍼옴
 시간 복잡도(알고리즘)
