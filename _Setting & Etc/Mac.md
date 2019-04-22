@@ -301,3 +301,10 @@ yoda@localhost:~/Downloads$killall yes
 [7]-  Terminated: 15          yes > /dev/null
 [8]+  Terminated: 15          yes > /dev/null
 ```
+
+# Kill port
+```Shell
+lsof -i :3000 (where 3000 is your current port in use)
+ps ax | grep <PID>
+kill -QUIT <PID>
+```
