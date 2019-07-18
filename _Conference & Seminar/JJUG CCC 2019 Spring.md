@@ -26,7 +26,7 @@ JJUG CCC 2019 Spring 2019.5.18
 * テスト自動生成
 * テストコードとテストデータの分離
 ## テスト環境
-* man compile -> mvn test → man clean package, skpitestをtrueした状態でbuild
+* mvn compile -> mvn test → mvn clean package, skpitestをtrueした状態でbuild
 ## まとめ
 * Port Bindingが大変 → ochestration tool導入で解決できる
 * コンテナおよびサービス起動が確認できない→ochestration toolを導入すれば確認できるはず
@@ -39,7 +39,6 @@ JJUG CCC 2019 Spring 2019.5.18
 * Functional style -> Simple
 * Simple is not easy
 * WebFluxとの違いはTomcatなのかNettyなのか
-* 
 
 
 
