@@ -214,3 +214,21 @@ docker pull zokeber/redis:latest
 ```Shell
 docker run --rm -it -p 6379:6379 --name container-redis zokeber/redis
 ```
+
+# Volume
+## list
+```
+$ docker volume ls
+```
+
+## delete
+```
+$ docker volume rm ボリューム名
+```
+
+## delete all
+`-f` optionあり
+
+```
+$ docker volume prune
+```
