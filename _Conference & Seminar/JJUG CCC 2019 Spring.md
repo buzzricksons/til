@@ -17,7 +17,9 @@ JJUG CCC 2019 Spring 2019.5.18
 マネジメントキャリアパスの本
 
 # ランチセッション
-* Eclipse che
+* [Eclipse che](https://www.eclipse.org/che/)
+    * ソースコードの共有・レビュー・確認をURLで
+    * 開発からdeployまで一元化
 
 # Hadoop 13:30セッション
 * `_`は使わない方がいい。従来にjdkで使われる可能性がある

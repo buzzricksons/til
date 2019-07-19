@@ -308,3 +308,9 @@ lsof -i :3000 (where 3000 is your current port in use)
 ps ax | grep <PID>
 kill -QUIT <PID>
 ```
+
+# Mac 노트북에서 SMC를 재설정하는 방법
+1. Apple 메뉴 > 시스템 종료를 선택합니다.
+2. Mac이 종료되면 내장 키보드 왼쪽에 있는 shift-control-option 키를 누르고 전원 버튼을 동시에 누릅니다.
+3. 모든 키에서 손을 뗍니다.
+4. 전원 버튼을 다시 눌러 Mac을 켭니다.
