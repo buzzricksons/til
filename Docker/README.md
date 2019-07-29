@@ -221,6 +221,11 @@ docker run --rm -it -p 6379:6379 --name container-redis zokeber/redis
 $ docker volume ls
 ```
 
+## inspect
+```
+$ docker inspect ボリューム名
+```
+
 ## delete
 ```
 $ docker volume rm ボリューム名
