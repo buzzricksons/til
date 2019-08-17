@@ -237,3 +237,9 @@ $ docker volume rm ボリューム名
 ```
 $ docker volume prune
 ```
+
+# Images
+## PostgreSQL
+```
+$ docker run --name my-db -p 5432:5432 -e POSTGRES_USER=dev -e POSTGRES_PASSWORD=secret -d postgres:9.6
+```
