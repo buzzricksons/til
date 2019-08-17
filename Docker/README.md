@@ -240,6 +240,8 @@ $ docker volume prune
 
 # Images
 ## PostgreSQL
+https://qiita.com/kimullaa/items/70eaec61c02d2513e76c
+
 ```
 $ docker run --name my-db -p 5432:5432 -e POSTGRES_USER=dev -e POSTGRES_PASSWORD=secret -d postgres:9.6
 ```
