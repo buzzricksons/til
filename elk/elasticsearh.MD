@@ -10,6 +10,9 @@ $ ./elasticsearch -d -p pid
 ### text
 - [Elasticsearch] 문자열 Data Type과 Analyze: http://asuraiv.blogspot.com/2017/08/elasticsearch-data-type-analyze.html
 
+# Query
+- ElasticSearch 에서 term, match, match_phrase 쿼리에 대한 이해: https://findstar.pe.kr/2018/01/19/understanding-query-on-elasticsearch/
+
 
 
 # Etc
