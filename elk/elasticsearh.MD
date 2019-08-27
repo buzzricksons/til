@@ -30,3 +30,22 @@ Keyword 필드의 Value 는 Token filter 적용이 되지 않습니다.
 - https://wishgone.tistory.com/entry/elasticsearch-indexing-Performance-Tips-%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1%EC%84%9C%EC%B9%98
 - https://wedul.site/613
 - ElasticSearch 인덱싱 성능 최적화: https://brunch.co.kr/@alden/37
+
+# Java High Level Client
+When Spring Boot
+```
+    <properties>
+        <java.version>1.8</java.version>
+        <elasticsearch.version>7.3.0</elasticsearch.version>
+    </properties>
+
+    <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <version>7.3.0</version>
+    </dependency>
+    <dependency>
+         <groupId>org.elasticsearch</groupId>
+         <artifactId>elasticsearch</artifactId>
+    </dependency>
+```
