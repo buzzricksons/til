@@ -166,3 +166,5 @@ https://qiita.com/eudyptesc/items/48e27921c08966885231
 ### Editor > File Encodings > check belows
 - Transparent native-to-ascii conversion
 
+# Git squash
+https://qiita.com/rubytomato@github/items/ba867fa54b6b323fcab0
