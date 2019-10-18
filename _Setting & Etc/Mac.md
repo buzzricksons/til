@@ -122,6 +122,10 @@ Capitalize words automatically
 Add period with double-space
 ```
 
+## tab 有効化
+ショートカット → すべてのコントロールにチェック
+
+
 # Browser
 
 ## Chrome
