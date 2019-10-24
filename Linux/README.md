@@ -341,3 +341,11 @@ Enter passphrase (empty for no passphrase): [Type a passphrase]
 ```Shell
 $ sudo grep Port /etc/ssh/sshd_config
 ```
+
+#zip
+## zip with pw
+```
+zip -er [ZIP 파일의 경로와 이름] [압축 대상의 경로와 이름]
+
+ex) zip -er ~/Downloads/file.zip ~/Downloads/file.png
+```
