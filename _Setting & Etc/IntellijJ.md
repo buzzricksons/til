@@ -168,3 +168,10 @@ https://qiita.com/eudyptesc/items/48e27921c08966885231
 
 # Git squash
 https://qiita.com/rubytomato@github/items/ba867fa54b6b323fcab0
+
+# Hot swap
+1.Preferences -> Compiler -> check `Make project automatically`
+2.Run `cmd + shift + a` → input `Registry` → check `compiler.automake.allow.when.app.running`
+
+
+
