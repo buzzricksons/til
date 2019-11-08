@@ -48,3 +48,8 @@ A((?!abc).)*
 ```
 ^(?=.*\bmodule\b)(?=.*\bSNAPSHOT\.jar\b).*$
 ```
+
+### 改行
+```
+String LINE_SEPARATOR_PATTERN =  "\r\n|[\n\r\u2028\u2029\u0085]";
+```
