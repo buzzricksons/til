@@ -148,3 +148,6 @@ public class Fibonacci {
 
 This currently only works for public fields (see https://github.com/junit-team/junit/pull/737).
 
+# Pararell test
+https://www.codeflow.site/ja/article/maven-junit-parallel-tests
+
