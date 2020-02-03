@@ -4,3 +4,8 @@ https://stackoverflow.com/questions/25205113/how-to-change-the-version-of-the-de
 ```Shell
 ./gradlew wrapper --gradle-version 2.12
 ```
+
+# delete cache
+```
+rm -rf $HOME/.gradle/caches/
+```
