@@ -1,3 +1,26 @@
+# Setting
+## ハイライトのカラーを見やすくする
+http://stackoverflow.com/questions/26352197/how-to-change-usage-highlight-color-in-intellij-idea
+Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の好みで修正する。
+修正する項目は`identifier under caret`と`identifier under caret (write)`
+
+- identifier under caret: Backgroundを046808に変更
+- identifier under caret (write): Backgroundを531314に変更
+
+### 適用前
+![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/before.jpg)
+
+### 適用後
+![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/after.jpg)
+
+## Annotation
+Editor>Code Style>Java
+- Class annotations : Wrap always
+- Method annotations : Wrap always
+- Field annotations : Wrap always
+- Parameter annotaions : Do not wrap
+- Local variable annotiaons : Wrap always
+- Annotation parameters : Do not wrap
 
 # Plug In
 ## Git Tool Box
@@ -37,20 +60,6 @@ https://plugins.jetbrains.com/plugin/7125-grep-console
 
 ## Markdown plugin
 
-
-# ハイライトのカラーを見やすくする
-http://stackoverflow.com/questions/26352197/how-to-change-usage-highlight-color-in-intellij-idea
-Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の好みで修正する。
-修正する項目は`identifier under caret`と`identifier under caret (write)`
-
-- identifier under caret: Backgroundを046808に変更
-- identifier under caret (write): Backgroundを531314に変更
-
-### 適用前
-![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/before.jpg)
-
-### 適用後
-![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/after.jpg)
 
 # ショートカット
 | 機能名 | Mac | Window |
