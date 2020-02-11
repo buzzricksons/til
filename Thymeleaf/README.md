@@ -81,3 +81,41 @@ include_common.html
     <div class="AAA" th:attr="key=${contentsKey}"></div>
     <!--STAFFSTART Contents END -->
 </th:block>```
+
+# 変数宣言
+```
+th:with="isEven=(${prodStat.count} % 2 == 0)"
+
+th:with="isEven=${prodStat.count % 2 == 0}"
+```
+
+# Comment
+1.Thymeleaf parser-lever comments block
+Parser-level주석은 정적인 페이지에서는 주석으로 남겨져있다가 thymeleaf 처리가 될때 제거되는 주석입니다.
+```
+<!--/* This code will be removed at thymeleaf parsing time! */-->
+```
+이뿐만 아니라 다음과 같이 사용하면 정적인 페이지에서 DOM을 표현했다가 thymeleaf 처리후 제거가 되도록 표현이 가능합니다.
+```
+<!--/*-->
+<div>
+ you can see me only before thymeleaf processes me!
+</div>
+<!--*/-->
+```
+
+2.Thymeleaf prototype-only comment blocks
+정적페이지에서 주석으로 처리가 되고 thymeleaf 처리후 나타나는 주석
+```
+<!--/*/
+ <span th:text="${..}">
+/*/-->
+```
+위와 같이 표현을 하게 되면 정적 페이지에선 Hello! goodbye! 만 보여지게 되지만 thymeleaf처리가 되면 
+```
+<span th:text="${..}">
+```
+위와 같이 보이게 되서 출력됩니다.
+th:block을 prototype-only주석과 사용할때 유용함.
+
+
