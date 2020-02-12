@@ -69,3 +69,7 @@ public class StaffDetailTag {
     }
 }
 ```
+
+# Json serialize and deserialize
+- https://stackoverflow.com/questions/12468764/jackson-enum-serializing-and-deserializer
+- https://www.baeldung.com/jackson-serialize-enums
