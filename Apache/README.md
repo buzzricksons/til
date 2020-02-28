@@ -141,3 +141,6 @@ netstat -nap | grep :80 | grep ESTABLISHED | wc -l
 KeepAlive Off
 Timeout 8~10
 ```
+
+# Mac apache ssl setting
+https://getgrav.org/blog/macos-catalina-apache-ssl
