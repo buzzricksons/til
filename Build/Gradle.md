@@ -10,6 +10,12 @@ https://stackoverflow.com/questions/25205113/how-to-change-the-version-of-the-de
 rm -rf $HOME/.gradle/caches/
 ```
 
+## cache location
+```
+On Windows: %USER_HOME%\.gradle/caches/
+On Mac/Unix: ~/.gradle/caches/
+```
+
 # custom properties
 gradle.properties
 
