@@ -60,6 +60,9 @@ https://plugins.jetbrains.com/plugin/7125-grep-console
 
 ## Markdown plugin
 
+## Clear Cache
+https://plugins.jetbrains.com/plugin/12173-clear-cache
+
 
 # ショートカット
 | 機能名 | Mac | Window |
