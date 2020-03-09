@@ -118,4 +118,20 @@ Parser-level주석은 정적인 페이지에서는 주석으로 남겨져있다�
 위와 같이 보이게 되서 출력됩니다.
 th:block을 prototype-only주석과 사용할때 유용함.
 
+# Spring boot cache
+変更前(SpringBoot2.0以前)
 
+```
+bootRun {
+addResources=true
+}
+```
+
+変更後(SpringBoot2.0)
+
+```
+bootRun {
+sourceResources sourceSets.main
+}
+これでbootRunさせれば起動され、Thymeleafのコンテンツも自動更新されます。
+```

@@ -144,3 +144,8 @@ Timeout 8~10
 
 # Mac apache ssl setting
 https://getgrav.org/blog/macos-catalina-apache-ssl
+
+
+# cache 設定
+- https://webmasters.stackexchange.com/questions/68810/caching-of-js-and-css-files-apache-mod-headers-doesn-t-take-effect
+- 
