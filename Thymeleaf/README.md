@@ -135,3 +135,31 @@ sourceResources sourceSets.main
 }
 これでbootRunさせれば起動され、Thymeleafのコンテンツも自動更新されます。
 ```
+
+# Null handling
+```
+<p th:text="${customer?.address?.city}">City</p>
+```
+
+Java model that was used in the above example has the following structure:
+
+```
+class Customer {
+    private String firstName;
+    private String lastName;
+    private Address address;
+
+    // setters and getters
+}
+
+class Address { 
+    private String city;
+    private String country;
+    private String street;
+    private String zipCode;
+
+    // setters and getters
+}
+```
+
+
