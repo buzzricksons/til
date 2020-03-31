@@ -352,3 +352,9 @@ ex) zip -er ~/Downloads/file.zip ~/Downloads/file.png
 
 # add Service
 https://victorydntmd.tistory.com/215
+
+# 使っているport確認
+```
+ lsof -i -P -n | grep LISTEN
+```
+
