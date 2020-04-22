@@ -56,7 +56,7 @@ https://plugins.jetbrains.com/plugin/7125-grep-console
 
 ## Markdown plugin
 
-## Clear Cache
+## Clear Gradle Cache
 https://plugins.jetbrains.com/plugin/12173-clear-cache
 
 
