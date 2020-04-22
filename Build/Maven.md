@@ -88,3 +88,10 @@ $ mvn clean test -Dchromeoptions.args="--headless --disable-gpu"
 ```Shell
 $ mvn package
 ```
+
+# purge
+https://maven.apache.org/plugins/maven-dependency-plugin/examples/purging-local-repository.html
+
+```
+mvn dependency:purge-local-repository
+```
