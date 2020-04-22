@@ -44,10 +44,6 @@ Ctrl + Alt + SでSettingsメニューを開く
 左側でPluginsを選択し、右側で「Browse repositories」を押下する。
 出てきた検索画面で`Presentation Assistant`を検索しインストールする。
 
-## Java Stream Debugger
-![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/RackMultipart20170524-18656-ru3a5z.png)
-https://plugins.jetbrains.com/plugin/9696-java-stream-debugger
-
 ## 逆Debugプラグイン
 https://www.jetbrains.com/help/idea/2017.1/debugging-with-chronon.html
 https://blog.jetbrains.com/jp/2014/03/06/420
