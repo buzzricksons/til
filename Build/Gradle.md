@@ -27,3 +27,10 @@ org.gradle.jvmargs=-Xmx4096m -XX:MaxPermSize=1024m -XX:+HeapDumpOnOutOfMemoryErr
 org.gradle.parallel=true
 org.gradle.configureondemand=true
 ```
+
+# Hot swarp
+```
+bootRun {
+  sourceResources sourceSets.main
+}
+```
