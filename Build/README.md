@@ -12,7 +12,7 @@ mvn install -DskipTests
 #OR
 mvn install -Dmaven.test.skip=true
 
-gradle -x test install
+gradle -x test build
 ```
 
 ### To run JUnits and create JAR/WAR/EAR
