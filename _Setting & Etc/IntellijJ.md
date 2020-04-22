@@ -54,8 +54,6 @@ https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
 ## Grep console
 https://plugins.jetbrains.com/plugin/7125-grep-console
 
-## Markdown plugin
-
 ## Clear Gradle Cache
 https://plugins.jetbrains.com/plugin/12173-clear-cache
 
