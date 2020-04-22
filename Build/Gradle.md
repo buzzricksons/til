@@ -21,8 +21,6 @@ gradle.properties
 
 ```
 org.gradle.daemon=true
-#org.gracle.jvmargs=-Xmx4096m
-
 org.gradle.jvmargs=-Xmx4096m -XX:MaxPermSize=1024m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
 org.gradle.parallel=true
 org.gradle.configureondemand=true
