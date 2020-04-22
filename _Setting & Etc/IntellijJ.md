@@ -13,14 +13,6 @@ Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の
 ### 適用後
 ![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/after.jpg)
 
-## Annotation
-Editor>Code Style>Java
-- Class annotations : Wrap always
-- Method annotations : Wrap always
-- Field annotations : Wrap always
-- Parameter annotaions : Do not wrap
-- Local variable annotiaons : Wrap always
-- Annotation parameters : Do not wrap
 
 # Plug In
 ## Git Tool Box
@@ -171,6 +163,15 @@ https://qiita.com/eudyptesc/items/48e27921c08966885231
 
 ### Editor > File Encodings > check belows
 - Transparent native-to-ascii conversion
+
+### Editor > Code Style > Java
+Annotation setting
+- Class annotations : Wrap always
+- Method annotations : Wrap always
+- Field annotations : Wrap always
+- Parameter annotaions : Do not wrap
+- Local variable annotiaons : Wrap always
+- Annotation parameters : Do not wrap
 
 # Git squash
 https://qiita.com/rubytomato@github/items/ba867fa54b6b323fcab0
