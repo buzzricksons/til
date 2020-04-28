@@ -13,14 +13,6 @@ Preferences > Editor > Color Scheme > General > 右側の Code部分を自分の
 ### 適用後
 ![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/after.jpg)
 
-## Annotation
-Editor>Code Style>Java
-- Class annotations : Wrap always
-- Method annotations : Wrap always
-- Field annotations : Wrap always
-- Parameter annotaions : Do not wrap
-- Local variable annotiaons : Wrap always
-- Annotation parameters : Do not wrap
 
 # Plug In
 ## Git Tool Box
@@ -44,10 +36,6 @@ Ctrl + Alt + SでSettingsメニューを開く
 左側でPluginsを選択し、右側で「Browse repositories」を押下する。
 出てきた検索画面で`Presentation Assistant`を検索しインストールする。
 
-## Java Stream Debugger
-![](https://github.com/buzzricksons/til/blob/master/_Image/_%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A8%E3%82%81/RackMultipart20170524-18656-ru3a5z.png)
-https://plugins.jetbrains.com/plugin/9696-java-stream-debugger
-
 ## 逆Debugプラグイン
 https://www.jetbrains.com/help/idea/2017.1/debugging-with-chronon.html
 https://blog.jetbrains.com/jp/2014/03/06/420
@@ -58,9 +46,7 @@ https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
 ## Grep console
 https://plugins.jetbrains.com/plugin/7125-grep-console
 
-## Markdown plugin
-
-## Clear Cache
+## Clear Gradle Cache
 https://plugins.jetbrains.com/plugin/12173-clear-cache
 
 
@@ -177,6 +163,15 @@ https://qiita.com/eudyptesc/items/48e27921c08966885231
 
 ### Editor > File Encodings > check belows
 - Transparent native-to-ascii conversion
+
+### Editor > Code Style > Java
+Annotation setting
+- Class annotations : Wrap always
+- Method annotations : Wrap always
+- Field annotations : Wrap always
+- Parameter annotaions : Do not wrap
+- Local variable annotiaons : Wrap always
+- Annotation parameters : Do not wrap
 
 # Git squash
 https://qiita.com/rubytomato@github/items/ba867fa54b6b323fcab0
