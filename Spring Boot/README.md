@@ -359,3 +359,6 @@ https://dayone.me/1Sm6zrv
 
 ## Disablel Spring Batch Auto Start
 https://stackoverflow.com/questions/22318907/how-to-stop-spring-batch-scheduled-jobs-from-running-at-first-time-when-executin
+
+# [Spring] 스프링(Spring) @Qualifier, @Named, @Primary 의존객체 선택
+https://engkimbs.tistory.com/683
