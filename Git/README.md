@@ -172,3 +172,9 @@ $ git push --mirror https://github.com/exampleuser/new-repository.git
 $ cd ..
 $ rm -rf old-repository.git
 ```
+
+# 원격 저장소에 올라간 커밋 되돌리기
+```
+$ git reset --hard HEAD~3
+$ git push -f origin master
+```
