@@ -452,6 +452,27 @@ public class Member05 {
 # Etc
 - Google Java Style Guide: https://google.github.io/styleguide/javaguide.html
 
-# Java Version change
+## Java Version change
 - https://qiita.com/seijikohara/items/56cc4ac83ef9d686fab2
 - https://github.com/jenv/jenv
+
+## camel to snake, snake to camel
+Commons Lang
+https://commons.apache.org/proper/commons-lang/
+
+```
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.5</version>
+</dependency>
+```
+
+```
+String snake = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase("KagamiHoge"), "_").toLowerCase();
+System.out.println(snake);//kagami_hoge
+
+String camel = StringUtils.remove(WordUtils.capitalizeFully("kagami_hoge", '_'), "_");
+System.out.println(camel);//KagamiHoge
+```
