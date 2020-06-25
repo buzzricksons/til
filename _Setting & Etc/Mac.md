@@ -322,3 +322,7 @@ kill -QUIT <PID>
 2. Mac이 종료되면 내장 키보드 왼쪽에 있는 shift-control-option 키를 누르고 전원 버튼을 동시에 누릅니다.
 3. 모든 키에서 손을 뗍니다.
 4. 전원 버튼을 다시 눌러 Mac을 켭니다.
+
+# terminal customize
+- https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
+- https://beomi.github.io/2017/07/07/Beautify-ZSH/
