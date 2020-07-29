@@ -175,6 +175,6 @@ $ rm -rf old-repository.git
 
 # 원격 저장소에 올라간 커밋 되돌리기
 ```
-$ git reset --hard HEAD~3
+$ git reset --hard HEAD~3 //3番目のcommit
 $ git push -f origin master
 ```
