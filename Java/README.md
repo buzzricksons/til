@@ -476,3 +476,10 @@ System.out.println(snake);//kagami_hoge
 String camel = StringUtils.remove(WordUtils.capitalizeFully("kagami_hoge", '_'), "_");
 System.out.println(camel);//KagamiHoge
 ```
+
+## customize jar manifest
+http://andresalmiray.com/customize-jar-manifest-entries-with-maven-gradle/
+
+
+
+
