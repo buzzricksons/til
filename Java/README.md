@@ -477,9 +477,11 @@ String camel = StringUtils.remove(WordUtils.capitalizeFully("kagami_hoge", '_'),
 System.out.println(camel);//KagamiHoge
 ```
 
-## customize jar manifest
+## customize jar manifestw
 http://andresalmiray.com/customize-jar-manifest-entries-with-maven-gradle/
 
 
+## Javaバージョン毎におけるkubernetes (GKE)上でのメモリ、CPU認識のデフォルト動作の違い
+https://qiita.com/h-r-k-matsumoto/items/17349e1154afd610c2e5
 
 
