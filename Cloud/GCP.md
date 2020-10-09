@@ -12,3 +12,10 @@ https://vitux.com/how-to-setup-java_home-path-in-ubuntu/
 # Edit timezone
 https://ora-sysdba.tistory.com/entry/Cloud-Computing-Amazon-EC2-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%9D%98-TIMEZONE-%EB%B3%80%EA%B2%BD
 
+# crontab(ubuntu)
+## start
+sudo su root
+service cron start
+
+## log
+grep CRON /var/log/syslog
