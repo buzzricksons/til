@@ -84,3 +84,8 @@ mysql> select user();
 +----------------+
 1 row in set (0.00 sec)
 ```
+
+# docker time zone setting
+```
+$ docker run -it --rm -e TZ='Asia/Tokyo' mysql:5.7 date
+```
