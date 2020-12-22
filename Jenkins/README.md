@@ -11,3 +11,16 @@
             }
         }
 ```
+
+# print all env
+```
+        stage('Initialization') {
+            steps {
+                script {
+                    sh 'env | sort'
+                    sh 'printenv | sort'
+                    ....
+                }
+            }
+        }
+```
