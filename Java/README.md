@@ -485,3 +485,45 @@ http://andresalmiray.com/customize-jar-manifest-entries-with-maven-gradle/
 https://qiita.com/h-r-k-matsumoto/items/17349e1154afd610c2e5
 
 
+# 가중치 줘서 랜덤하게 뽑기
+가중치가 적용 된 범위에서 숫자를 추출하려면?
+
+예를 들어
+
+```
+"ball" : 25%
+"strike" : 70%
+"wild pitch" : 5%
+```
+
+이런 확률 속에서 랜덤하게 추출하는 것이다
+
+
+가중치 random
+```
+public static <E> E getWeightedRandom(Map<E, Double> weights, Random random) {
+  E result = null;
+  double bestValue = Double.MAX_VALUE;
+ 
+  for (E element : weights.keySet()) {
+    double value = -Math.log(random.nextDouble()) / weights.get(element);
+    if (value < bestValue) {
+      bestValue = value;
+      result = element;
+    }
+  }
+  return result;
+}
+```
+
+사용법은 이렇게
+```
+Map<String, Double> w = new HashMap<String, Double>();
+w.put("ball", 25D);
+w.put("strike", 70D);
+w.put("wild pitch", 5D);
+Random rand = new Random();
+System.out.prinln(getWeightedRandom(w, rand));
+```
+
+출처: https://blog.daum.net/creazier/15310426
