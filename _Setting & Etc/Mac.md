@@ -2,7 +2,8 @@
 
 ## Trackpad
 
-設定 → トラックパッド → タップでクリックを有効にする
+* 設定 → トラックパッド → タップでクリックを有効にする
+* Tracking speed -> 5 from fast
 
 ## Mission Control
 
@@ -26,7 +27,7 @@ defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohi
 
 ## システム環境設定
 
-### セキュリティとプライバシー
+### Security & Privacy
 
 - アクセシビリティの修正
 - フルディスクアクセス修正
@@ -35,9 +36,11 @@ defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohi
 
 http://macnews.tistory.com/5176
 
+
 ## マックのbarに自分の名前を設定
 
 http://insidemac.tistory.com/21
+
 
 ## プロフィール画像の変更
 
@@ -57,7 +60,16 @@ Finder -> Preferences -> Advanced -> Show all filename extensions
 
 # キーボード
 
-まずKarabinerをインストールする
+## Google 日本語入力をインストール
+
+https://www.google.co.jp/ime/
+
+
+## 言語変換設定(Karabiner)
+
+https://github.com/buzzricksons/etc-korean-for-karabiner
+
+
 
 ## F Key
 
@@ -96,9 +108,6 @@ check belows
 | right shift | delete forward |
 | delete forward | right shift |
 
-## Google 日本語入力をインストール
-
-https://www.google.co.jp/ime/
 
 ### 言語変換 Shortcut
 
@@ -109,9 +118,6 @@ https://www.google.co.jp/ime/
 半角変換: Ctrl+;
 ```
 
-## 言語変換設定
-
-https://github.com/buzzricksons/etc-korean-for-karabiner
 
 ## off the correct spelling
 
@@ -124,7 +130,7 @@ Add period with double-space
 ```
 
 ## tab 有効化
-ショートカット → すべてのコントロールにチェック
+ショートカット → すべてのコントロールにチェック(Use keyboard navigation to move focus between controls)
 
 
 # Browser
