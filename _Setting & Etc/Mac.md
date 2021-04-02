@@ -166,6 +166,8 @@ Shift + Option + Command + v
 
 https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/
 
+
+
 # Install app
 
 ## homebrewのインストール
@@ -219,6 +221,7 @@ source ~/.bash_profile
 Then, in your iTerm2 Preferences > Profiles > Terminal > Report Terminal Type, set to either xterm-256color or xterm
 Close iTerm2, restart it and type ls. That did the trick for me.
 
+
 ## NeoVimのインストール
 
 https://neovim.io/
@@ -230,6 +233,7 @@ https://www.sublimetext.com/3
 ### 他の設定
 
 https://github.com/buzzricksons/til/blob/master/_Setting%20%26%20Etc/Sublime%20Text.md
+
 
 ## clipyのインストール
 
@@ -330,5 +334,7 @@ kill -QUIT <PID>
 4. 전원 버튼을 다시 눌러 Mac을 켭니다.
 
 # terminal customize
-- https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
+↓recommend
+
 - https://beomi.github.io/2017/07/07/Beautify-ZSH/
+- https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
