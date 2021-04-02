@@ -221,6 +221,12 @@ source ~/.bash_profile
 Then, in your iTerm2 Preferences > Profiles > Terminal > Report Terminal Type, set to either xterm-256color or xterm
 Close iTerm2, restart it and type ls. That did the trick for me.
 
+### terminal customize
+↓recommend
+
+- https://beomi.github.io/2017/07/07/Beautify-ZSH/
+- https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
+
 
 ## NeoVimのインストール
 
@@ -243,7 +249,6 @@ https://clipy-app.com/
 https://apps.apple.com/jp/app/rocket-fuel/id1114196460?l=en&mt=12
 
 ## Go2Shellのインストール
-
 http://macnews.tistory.com/1216
 
 ### ターミナルをiterm2に変更
@@ -251,6 +256,22 @@ http://macnews.tistory.com/1216
 ```Shell
 $ open -a Go2Shell --args config
 ```
+
+## horo
+https://apps.apple.com/us/app/horo-timer-for-menu-bar/id1437226581?mt=12
+
+## Meld
+https://apps.apple.com/us/app/horo-timer-for-menu-bar/id1437226581?mt=12
+
+## keka
+https://www.keka.io/en/
+
+## paint x
+https://apps.apple.com/us/app/paint-x-paint-draw-and-edit/id668502966?mt=12
+
+## easy find
+https://www.macupdate.com/app/mac/11076/easyfind
+
 
 # その他
 
@@ -333,8 +354,3 @@ kill -QUIT <PID>
 3. 모든 키에서 손을 뗍니다.
 4. 전원 버튼을 다시 눌러 Mac을 켭니다.
 
-# terminal customize
-↓recommend
-
-- https://beomi.github.io/2017/07/07/Beautify-ZSH/
-- https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
