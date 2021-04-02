@@ -272,6 +272,10 @@ https://apps.apple.com/us/app/paint-x-paint-draw-and-edit/id668502966?mt=12
 ## easy find
 https://www.macupdate.com/app/mac/11076/easyfind
 
+## gas mask
+https://github.com/2ndalpha/gasmask
+
+
 
 # その他
 
