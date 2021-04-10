@@ -77,6 +77,7 @@ check belows
 - `USE F1, F2, etc. keys as standard function keys`
 
 ## Keyboard
+Keychron F6 -> FN+K+C press for 3s
 
 ### Filco キーボードの場合
 
