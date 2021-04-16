@@ -209,6 +209,13 @@ https://www.iterm2.com/
 - https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
 
 
+### ssh folder
+```
+chown -R YOUR_USER: ~/.ssh
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/*
+```
+
 
 ### change iterm2 color
 
@@ -255,6 +262,12 @@ https://github.com/buzzricksons/til/blob/master/_Setting%20%26%20Etc/Sublime%20T
 
 https://clipy-app.com/
 
+### setting
+- Max clipboard history size to 50
+- Shortcuts Main: option + dobule tap
+
+
+
 ## Rocket Fuel
 https://apps.apple.com/jp/app/rocket-fuel/id1114196460?l=en&mt=12
 
@@ -284,6 +297,11 @@ https://www.macupdate.com/app/mac/11076/easyfind
 
 ## gas mask
 https://github.com/2ndalpha/gasmask
+
+## firefox
+## edge
+
+
 
 
 
