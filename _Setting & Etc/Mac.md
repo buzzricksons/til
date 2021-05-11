@@ -245,6 +245,25 @@ Close iTerm2, restart it and type ls. That did the trick for me.
 - https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
 
 
+### 터미널 단축키
+| 동작 | key |
+| ------------- |:-------------:|
+| 삽입점으로 위치 변경 | Option 키를 누른 상태로 포인터를 새로운 삽입점으로 이동하십시오. |
+| 삽입점을 명령어 라인의 시작 부분으로 이동 | Control-A |
+| 삽입점을 명령어 라인의 끝 부분으로 이동 | Control-E |
+| 삽입점을 한 문자 앞으로 이동 | 오른쪽 화살표 |
+| 삽입점을 한 문자 뒤로 이동 | 왼쪽 화살표 |
+| 삽입점을 한 단어 앞으로 이동 | Option-오른쪽 화살표 |
+| 삽입점을 한 단어 뒤로 이동 | Option-왼쪽 화살표 |
+| 명령어 라인의 시작 부분까지 삭제 | Control-U |
+| 명령어 라인의 끝 부분까지 삭제 | Control-K |
+| 단어의 끝 부분으로 이동 | Option-D(Option을 Meta 키로 사용을 선택한 경우에만 사용 가능) |
+| 단어의 시작 부분으로 이동 | Control-W |
+| 1개의 문자 삭제 | Delete |
+| 오른쪽 방향으로 한 문자 삭제 | 오른쪽 방향 삭제(또는 Fn-Delete 사용) |
+| 두 문자의 위치를 서로 바꾸기 |  Control-T|
+
+
 ## NeoVimのインストール
 
 https://neovim.io/
@@ -284,7 +303,7 @@ $ open -a Go2Shell --args config
 https://apps.apple.com/us/app/horo-timer-for-menu-bar/id1437226581?mt=12
 
 ## Meld
-https://apps.apple.com/us/app/horo-timer-for-menu-bar/id1437226581?mt=12
+https://meldmerge.org
 
 ## keka
 https://www.keka.io/en/
