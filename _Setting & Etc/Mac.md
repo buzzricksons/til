@@ -406,3 +406,11 @@ kill -QUIT <PID>
 4. 전원 버튼을 다시 눌러 Mac을 켭니다.
 =======
 4. 전원 버튼을 다시 눌러 Mac을 켭니다.
+
+# Mission Control not working (Mac OS Catalina 10.15)
+
+```
+defaults write com.apple.dock mcx-expose-disabled -bool FALSE
+
+killall Dock
+```
