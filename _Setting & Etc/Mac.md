@@ -321,6 +321,9 @@ https://github.com/2ndalpha/gasmask
 불필요하게 용량 큰 파일 삭제
 - http://www.derlien.com/downloads/index.html
 
+## iStat menu
+https://bjango.com/mac/istatmenus/
+
 
 ## firefox
 ## edge
