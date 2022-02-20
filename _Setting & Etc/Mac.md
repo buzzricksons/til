@@ -422,3 +422,9 @@ defaults write com.apple.dock mcx-expose-disabled -bool FALSE
 
 killall Dock
 ```
+
+# 영어연속입력
+
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
