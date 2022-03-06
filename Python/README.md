@@ -1,5 +1,6 @@
 # Django
-https://www.djangoproject.com/download/
+* https://www.djangoproject.com/download/
+* https://code.visualstudio.com/docs/python/tutorial-django
 
 
 ## install
