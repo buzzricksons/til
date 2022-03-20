@@ -26,3 +26,9 @@ X-XSS-Protection: 1; report=<reporting-uri>
     * XSS 필터링을 사용합니다. 공격이 탐지되면 안전하지 않는 영역을 제거하는게 아니라, 페이지 렌더링을 중단합니다.
 * 1; report=<reporting-URI>  (Chromium에서만 사용 가능)
     * XSS 필터링을 사용합니다. XSS 공격을 탐지하면 브라우저는 페이지 렌더링을 차단하고 위반 사항을 보고합니다. 이것은 CSP report-uri 지시문의 기능을 사용하여 보고서를 보냅니다.
+
+# permissions on .ssh folder
+* `.ssh` directory: 700 (drwx------)
+* public key (`.pub file`): 644 (-rw-r--r--)
+* private key (`id_rsa`): 600 (-rw-------)
+* lastly your home directory should not be writeable by the group or others (at most 755 (drwxr-xr-x)).
