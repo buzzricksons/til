@@ -89,3 +89,60 @@ mysql> select user();
 ```
 $ docker run -it --rm -e TZ='Asia/Tokyo' mysql:5.7 date
 ```
+
+# Install to linux
+## install (ver 8)
+```
+sudo yum install -y mysql-community-server
+```
+
+If below error is printed
+```
+sudo yum install -y mysql-community-server
+Last metadata expiration check: 0:44:55 ago on Wed 23 Mar 2022 01:02:48 PM GMT.
+No match for argument: mysql-community-server
+Error: Unable to find a match: mysql-community-server
+```
+
+execute below command and run install command again
+```
+sudo yum module disable mysql
+```
+
+## after install
+### check status
+```
+systemctl status mysqld
+```
+
+### start
+```
+sudo systemctl start mysqld
+```
+
+### stop
+```
+sudo systemctl stop mysqld
+```
+
+### restart
+```
+sudo systemctl restart mysqld
+```
+
+### auto restart setting
+```
+sudo systemctl enable mysqld
+```
+
+
+
+
+
+
+
+
+
+
+
+
