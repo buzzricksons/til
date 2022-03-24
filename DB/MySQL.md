@@ -135,6 +135,17 @@ sudo systemctl restart mysqld
 sudo systemctl enable mysqld
 ```
 
+### check password
+```
+sudo grep password /var/log/mysqld.log
+```
+
+## uninstall
+https://www.suzu6.net/posts/197-delete-mysql/
+
+
+
+
 
 
 
