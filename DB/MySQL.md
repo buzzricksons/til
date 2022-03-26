@@ -144,8 +144,14 @@ sudo grep password /var/log/mysqld.log
 https://www.suzu6.net/posts/197-delete-mysql/
 
 
+# Docker
+```
+docker pull mysql
 
+docker volume create mysql_egov
 
+docker run -it --name freemarket-db-mysql  -e MYSQL_ROOT_PASSWORD=<MY PW> -e MYSQL_DATABASE=freemarket-db-mysql -e TZ=Asia/Tokyo -d mysql:latest -p 13306:3306 -v mysql_egov:/var/lib/mysql
+```
 
 
 
