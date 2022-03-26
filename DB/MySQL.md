@@ -140,6 +140,22 @@ sudo systemctl enable mysqld
 sudo grep password /var/log/mysqld.log
 ```
 
+## mysql setting
+```
+mysql> create database freemarket_db_mysql character set utf8mb4 collate utf8mb4_unicode_ci;
+
+
+mysql> create user 'yoda'@'%' identified with mysql_native_password by 'YOUR_PASSWORD';
+
+
+mysql> grant all privileges on freemarket_db_mysql.* to 'yoda'@'%' with grant option;
+
+
+mysql> flush privileges;
+
+```
+
+
 ## uninstall
 https://www.suzu6.net/posts/197-delete-mysql/
 
