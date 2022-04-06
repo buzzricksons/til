@@ -8,3 +8,6 @@ public JsonResultVo postDeleteFactory(@PathVariable("idx") int factoryIdx) {
 	return factoryService.deleteFacotryData(factoryIdx);
 }
 ```
+
+# ThymeleafでList<Object>をpostする
+https://medium-company.com/springboot-thymeleaf-list/
