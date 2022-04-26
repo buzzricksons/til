@@ -162,7 +162,7 @@ https://www.suzu6.net/posts/197-delete-mysql/
 
 # Docker
 ```
-docker pull mysql/mysql-server:8.0
+docker pull mysql
 
 docker volume create mysql_egov
 
