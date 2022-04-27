@@ -32,3 +32,13 @@ X-XSS-Protection: 1; report=<reporting-uri>
 * public key (`.pub file`): 644 (-rw-r--r--)
 * private key (`id_rsa`): 600 (-rw-------)
 * lastly your home directory should not be writeable by the group or others (at most 755 (drwxr-xr-x)).
+
+```
+-rw-r--r--. 1 opc opc  401 Apr 26 15:39 authorized_keys
+-rw-r--r--. 1 opc opc  746 Apr 27 14:33 id_rsa.pub
+-rw-------. 1 opc opc 3389 Apr 27 14:33 id_rsa
+-rw-r--r--. 1 opc opc   56 Apr 27 14:37 config
+drwx------. 3 opc opc  111 Apr 27 14:37 ..
+-rw-r--r--. 1 opc opc  185 Apr 27 14:40 known_hosts
+drwx------. 2 opc opc   94 Apr 27 14:40 .
+```
