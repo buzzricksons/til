@@ -71,10 +71,11 @@ https://github.com/buzzricksons/etc-korean-for-karabiner
 
 
 
-## F Key
+## Function Key
 
-check belows
-- `USE F1, F2, etc. keys as standard function keys`
+- check belows
+    - `USE F1, F2, etc. keys as standard function keys`
+- keyboard -> shortcut -> Fn을 선택.오른쪽에 인텔리제이 추가
 
 ## Keyboard
 Keychron F6 -> FN+K+C press for 3s
