@@ -527,3 +527,16 @@ System.out.prinln(getWeightedRandom(w, rand));
 ```
 
 출처: https://blog.daum.net/creazier/15310426
+
+
+# 걸리는 시간 체크
+```
+        Instant start = Instant.now();
+
+        //logic
+
+		Instant finish = Instant.now();
+		long elapsedTime = Duration.between(start, finish).toMillis();
+        //double elapsedTime = Duration.between(start, finish).toMillis() / 1000.0;
+		System.out.println("elapsedTime(ms) - 걸린시간 : " + elapsedTime);
+```
