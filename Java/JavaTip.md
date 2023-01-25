@@ -14,3 +14,7 @@ public void setActive(boolean active){this.active = active;}
 
 # RESTful end point naming
 https://stackoverflow.com/a/18449772
+
+
+# Java Process 메모리 추적기
+https://www.whatap.io/ko/blog/57/index.html
