@@ -362,3 +362,35 @@ https://stackoverflow.com/questions/22318907/how-to-stop-spring-batch-scheduled-
 
 # [Spring] 스프링(Spring) @Qualifier, @Named, @Primary 의존객체 선택
 https://engkimbs.tistory.com/683
+
+# Hikari
+https://velog.io/@miot2j/Spring-DB%EC%BB%A4%EB%84%A5%EC%85%98%ED%92%80%EA%B3%BC-Hikari-CP-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+
+# springboot외부 jar추가방법
+https://joshua90.tistory.com/entry/springboot-%EC%99%B8%EB%B6%80-jar-%EC%B6%94%EA%B0%80-%EB%B0%A9%EB%B2%95
+
+```
+[springboot 외부 jar 추가 방법]
+
+springboot app 을 실행하는 방법으로 주로 가이드 되고 있는 방법은  전체 app을 jar or war 로 패키징해서 java -jar 옵션으로 실행 하는 방법이다.
+
+보통의 경우 여기에 application.properties 를 분리해야 설정 파일을 개발 / 운영으로 분리하는 것으로 충분하겠지만
+뭐 생각대로 되지 않는 일이 한 두개는 아니겠지.
+
+외부 jar 파일을 포함해서 배포를 해야 하는 일이 발생했다. 
+
+1. 내부 repo 서버에 등록하고 pom.xml 에 추가한다.
+2. local dir 에 추가하고 pom.xml 추가한다.
+3. java runtime 실행 시 classpath 를 추가 한다.
+   
+* 여기서 runtime 추가 하는 방법을 기술한다. 
+원래는 가장 쉬어 보여 시작했는데 생각 보다 쉽지 않았음.
+
+ref) https://www.baeldung.com/spring-boot-main-class
+
+1. 먼제 jar 파일로 패키징 한다.
+2. 메인 jar 파일은 java -cp 옵션으로 패스를 걸어준다.
+3. 추가 jar 파일 패스는 -Dloader.path= 옵션으로 걸어 준다.
+
+ex) java -cp bootApp.jar -Dloader.main=org.baeldung.DemoApplication -Dloader.path=add.jar org.springframework.boot.loader.PropertiesLauncher
+```

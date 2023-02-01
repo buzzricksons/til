@@ -206,5 +206,30 @@ public class UserControllerMockMvcTest {
 # Repository
 - https://jiminidaddy.github.io/dev/2021/05/20/dev-spring-단위테스트-Repository/
 
+# exclude config when testing
+- java
+```
+@ConditionalOnProperty(value="otpConfig", havingValue="production")
+@Configuration
+@PropertySource("classpath:otp.properties")
+public class OTPConfig { }
+```
+
+- testing
+```
+@ConditionalOnProperty(value="otpConfig", havingValue="test")
+@Configuration
+@PropertySource("classpath:otp-test.properties")
+public class TestOTPConfig { }
+```
+
+- application.yml
+```
+# java
+otpConfig: production
+
+# testing
+otpConfig: test
+```
 
 
