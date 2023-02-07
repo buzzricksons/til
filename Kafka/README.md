@@ -11,4 +11,5 @@
     - https://ifuwanna.tistory.com/488
 - 카프카 탐구하기
     - https://data-make.tistory.com/731
--
+- Kafka CLI 사용하기
+    - https://akageun.github.io/2020/05/07/kafka-cli.html
