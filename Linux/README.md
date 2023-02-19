@@ -358,7 +358,7 @@ https://victorydntmd.tistory.com/215
  lsof -i -P -n | grep LISTEN
 ```
 
-# 폴더내 파일명 출ㅕ
+# 폴더내 파일명 출력
 ```
 $ find (탐색할경로) -type f > list.txt
 ```
