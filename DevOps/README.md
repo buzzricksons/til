@@ -11,3 +11,18 @@
 10. 인간의 문제는 시스템의 문제다.
 11. 인간의 건강은 사업의 건강에 영향을 준다.
 12. 인간 > 시스템
+
+# 10+ Deploy Per Day: Dev and Ops Cooperation at Flicker
+## 조직의 문화
+1. 상호존중(Respenct)
+2. 상호 신뢰(Trust)
+3. 실패에 대한 건전한 태도(Healthy attitude about failure)
+4. 상대를 비난하지 않기(Avoiding Blame)
+
+## 도구
+1. 자동화된 인프라(Automated Infrastructure)
+2. 버전 관리 시스템의 공유(Shared version control)
+3. 원스탭 빌드와 배포(One sted build and deploy)
+4. 피처 플래그(Feature flags)
+5. 지표 데이터의 공유(Shared metrics)
+6. IRC와 인스터트 메신저 봇(IRC and IM robots)
