@@ -30,3 +30,8 @@ https://docs.oracle.com/en/database/other-databases/index.html#OracleTimesTenIn-
 ```
 url: jdbc:timesten:client:TTC_SERVER=localhost;TCP_PORT=12023;TTC_SERVER_DSN=my_dsn;UID=hello;PWD=world;
 ```
+
+# get oracle version
+```
+SELECT BANNER, BANNER_FULL FROM v$version;
+```
