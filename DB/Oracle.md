@@ -35,3 +35,15 @@ url: jdbc:timesten:client:TTC_SERVER=localhost;TCP_PORT=12023;TTC_SERVER_DSN=my_
 ```
 SELECT BANNER, BANNER_FULL FROM v$version;
 ```
+
+# docker
+```
+$ docker search oracle-xe
+$ docker pull oracleinanutshell/oracle-xe-11g
+$ docker run --name oracle11g -d -p 11521:1521 oracleinanutshell/oracle-xe-11g
+```
+
+- Host: localhost
+- Port: 11521
+- system/oracle
+
