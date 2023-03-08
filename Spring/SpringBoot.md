@@ -394,3 +394,34 @@ ref) https://www.baeldung.com/spring-boot-main-class
 
 ex) java -cp bootApp.jar -Dloader.main=org.baeldung.DemoApplication -Dloader.path=add.jar org.springframework.boot.loader.PropertiesLauncher
 ```
+
+# Print all properties
+```
+@SpringBootApplication
+@EnableJpaAuditing
+public class DummyApplication {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(PropertyLogger.class);
+
+	@EventListener
+	public void handleContextRefresh(ContextRefreshedEvent event) {
+		final Environment env = event.getApplicationContext().getEnvironment();
+		LOGGER.info("====== Luke Environment and configuration ======");
+		LOGGER.info("Active profiles: {}", Arrays.toString(env.getActiveProfiles()));
+		final MutablePropertySources sources = ((AbstractEnvironment) env).getPropertySources();
+		StreamSupport.stream(sources.spliterator(), false)
+			.filter(ps -> ps instanceof EnumerablePropertySource)
+			.map(ps -> ((EnumerablePropertySource) ps).getPropertyNames())
+			.flatMap(Arrays::stream)
+			.distinct()
+			.filter(prop -> !(prop.contains("credentials") || prop.contains("password")))
+			.forEach(prop -> LOGGER.info("{}: {}", prop, env.getProperty(prop)));
+		LOGGER.info("===========================================");
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(DummyApplication.class, args);
+	}
+
+}
+```
