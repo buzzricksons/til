@@ -363,8 +363,6 @@ https://stackoverflow.com/questions/22318907/how-to-stop-spring-batch-scheduled-
 # [Spring] 스프링(Spring) @Qualifier, @Named, @Primary 의존객체 선택
 https://engkimbs.tistory.com/683
 
-# Hikari
-https://velog.io/@miot2j/Spring-DB%EC%BB%A4%EB%84%A5%EC%85%98%ED%92%80%EA%B3%BC-Hikari-CP-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
 
 # springboot외부 jar추가방법
 https://joshua90.tistory.com/entry/springboot-%EC%99%B8%EB%B6%80-jar-%EC%B6%94%EA%B0%80-%EB%B0%A9%EB%B2%95
@@ -425,3 +423,65 @@ public class DummyApplication {
 
 }
 ```
+
+# Hikari
+- [SpringBoot] hikariCP + PostgreSQL + mybatis 연동하기 (1)
+    - https://tlatmsrud.tistory.com/71
+- [Spring] DB커넥션풀과 Hikari CP 알아보기
+    - https://velog.io/@miot2j/Spring-DB커넥션풀과-Hikari-CP-알아보기
+- Hikari CP / Spring boot 설정
+    - https://girinprogram93.tistory.com/46
+- https://velog.io/@miot2j/Spring-DB%EC%BB%A4%EB%84%A5%EC%85%98%ED%92%80%EA%B3%BC-Hikari-CP-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+
+# Multiple datasource
+- Spring Boot 1개에 DB 2개 연결?
+    - https://wooki92.tistory.com/m/12
+- Spring JPA Multiple Databases 설정
+    - https://2dongdong.tistory.com/33
+- Spring Boot JPA - multiple database 설정.
+    - https://mudchobo.github.io/posts/spring-boot-jpa-multiple-database
+- [SPRINGBOOT] 멀티 데이터베이스(DB) 설정하기 JPA 편
+    - https://minaminaworld.tistory.com/219
+- [springboot] jpa 2개이상 DB사용(querydsl 설정 포함)
+    - https://lemontia.tistory.com/967
+- SPRING JPA 다중DB 접속
+    - https://eternalteach.tistory.com/67
+- lombokで@RequiredArgsConstructorに@Qualifierを渡したいときのlombok.config
+    - https://qiita.com/hrkt/items/e7c67c4d4de53bcb613b
+
+## 트랜잭션 바인딩
+- Spring 다중 데이터소스 설정 및 트랜잭션 동기화
+    - https://yousrain.tistory.com/50
+- Springboot + JPA + JTA (Atomikos) + MySQL 을 이용한 멀티 데이터베이스
+    - https://www.4te.co.kr/894
+
+## investigated article
+Spring JPA - Multiple Databases
+- https://www.baeldung.com/spring-data-jpa-multiple-databases
+- https://www.baeldung.com/spring-boot-configure-multiple-datasources
+- https://javatodev.com/multiple-datasources-with-spring-boot-data-jpa/
+
+Hibernate doc(setting)
+- https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/appendices/Configurations.html
+
+Spring Boot 2 Multiple Datasources initialize schema
+- https://stackoverflow.com/questions/51146269/spring-boot-2-multiple-datasources-initialize-schema
+
+remove lombok alert for @Qualifier when using @RequiredArgsConstructor
+- https://qiita.com/hrkt/items/e7c67c4d4de53bcb613b
+- https://stackoverflow.com/questions/38549657/is-it-possible-to-add-qualifiers-in-requiredargsconstructoronconstructor
+
+DataSourceが複数ある場合にSpring Testの@Sqlを使う場合の落とし穴
+- https://qiita.com/suke_masa/items/1461166badd9f94abcb2
+
+SpringBoot error: Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation
+- https://stackoverflow.com/questions/52014595/springboot-error-registered-driver-with-driverclassname-oracle-jdbc-driver-orac
+
+spring.jpa.hibernate.ddl-auto issue
+- https://stackoverflow.com/questions/28275448/multiple-data-source-and-schema-creation-in-spring-boot
+- https://stackoverflow.com/questions/23494157/what-is-exact-behavior-of-hibernate-hbm2ddl-auto-update-in-hibernate
+
+
+
+
+
