@@ -481,7 +481,18 @@ spring.jpa.hibernate.ddl-auto issue
 - https://stackoverflow.com/questions/28275448/multiple-data-source-and-schema-creation-in-spring-boot
 - https://stackoverflow.com/questions/23494157/what-is-exact-behavior-of-hibernate-hbm2ddl-auto-update-in-hibernate
 
-
+# JWT
+- Spring boot jwt token 사용하기
+    - https://charlie-choi.tistory.com/211
+- Spring boot환경에서 JWT 사용하기
+    - https://alwayspr.tistory.com/8
+- 스프링 부트에서 JWT(Json Web Token) 구현
+    - https://hyojun123.github.io/2018/07/17/JWT2/
+- spring jjwt 설명 및 예제
+    - https://idlecomputer.tistory.com/242
+- Spring Boot Security + JWT Hello World Example
+    - https://medium.com/swlh/spring-boot-security-jwt-hello-world-example-b479e457664c
+- 
 
 
 
