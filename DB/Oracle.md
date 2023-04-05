@@ -47,3 +47,13 @@ $ docker run --name oracle11g -d -p 11521:1521 oracleinanutshell/oracle-xe-11g
 - Port: 11521
 - system/oracle
 
+## link
+- [Mac] Docker를 이용해 oracle-xe-11g 실행하기
+    - https://clearstar0817.tistory.com/11
+
+# 인스톨후
+```
+create user oracleuser identified by password;
+
+grant connect, resource, dba to #user명#
+```

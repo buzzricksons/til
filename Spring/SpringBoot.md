@@ -448,6 +448,40 @@ public class DummyApplication {
     - https://eternalteach.tistory.com/67
 - lombokで@RequiredArgsConstructorに@Qualifierを渡したいときのlombok.config
     - https://qiita.com/hrkt/items/e7c67c4d4de53bcb613b
+- Spring Boot: 複数DB利用時に初期化が期待通りに行われない問題と解決法
+    - https://mythosil.hatenablog.com/entry/2019/07/28/181613
+- Spring Boot 2.5 で spring.datasource.initialization-mode が非推奨となっている件
+    - https://qiita.com/t-yama-3/items/9574f34ccc18de30d625
+
+
+## AbstractRoutingDataSource
+- AbstractRoutingDataSource 적용하기
+    - https://velog.io/@ghkvud2/AbstractRoutingDataSource-적용하기
+- 스프링에서 여러 개의 DataSource를 등록하고 사용할 수 있을까?
+    - https://madplay.github.io/post/spring-abstract-routing-data-source
+- SpringのAbstractRoutingDataSourceを使ってシャーディングっぽいことをしてみる！
+    - https://qiita.com/kazuki43zoo/items/9d8aec0ecab117a4d5c1
+- A Guide to Spring AbstractRoutingDatasource
+    - https://www.baeldung.com/spring-abstract-routing-data-source
+- Dynamic DataSource Routing
+    - https://spring.io/blog/2007/01/23/dynamic-datasource-routing
+- Quick Guide on Loading Initial Data with Spring Boot
+    - https://www.baeldung.com/spring-boot-data-sql-and-schema-sql
+- [Spring] DB 동적 라우팅을 위한 AbstractRoutingDataSource 설정
+    - https://maximsungmo.github.io/spring/abstract-routing-datasource/
+- [Spring]샤딩 구조의 데이터베이스에 대한 DataSource 사용
+    - http://egloos.zum.com/preludeb/v/7465566
+- Spring Boot Dynamic DataSource Routing using AbstractRoutingDataSource
+    - https://websparrow.org/spring/spring-boot-dynamic-datasource-routing-using-abstractroutingdatasource
+- Dynamic Data Source Routing in Spring Boot using AbstractRoutingDataSource
+    - https://attyuttam.medium.com/dynamic-data-source-routing-using-abstractroutingdatasource-in-spring-boot-d6dbdd644072
+- https://stackoverflow.com/questions/37561239/abstractroutingdatasource-doesnt-change-connection
+    - https://stackoverflow.com/questions/37561239/abstractroutingdatasource-doesnt-change-connection
+- Spring Data JPA - "could not initialize proxy - no Session" - With Methods marked as transactional
+    - https://stackoverflow.com/questions/36583185/spring-data-jpa-could-not-initialize-proxy-no-session-with-methods-marke
+- How to fix org.hibernate.LazyInitializationException - could not initialize proxy - no Session
+    - https://stackoverflow.com/questions/21574236/how-to-fix-org-hibernate-lazyinitializationexception-could-not-initialize-prox
+
 
 ## 트랜잭션 바인딩
 - Spring 다중 데이터소스 설정 및 트랜잭션 동기화

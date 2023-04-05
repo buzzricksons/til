@@ -474,6 +474,9 @@ public class MyArgumentsProvider implements ArgumentsProvider {
 }
 ```
 
+# link
+- Is there a JUNIT annotation to skip after method for one test method?
+    - https://stackoverflow.com/questions/13815167/is-there-a-junit-annotation-to-skip-after-method-for-one-test-method
 
 
 
