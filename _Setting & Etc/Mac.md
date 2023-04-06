@@ -329,7 +329,11 @@ https://bjango.com/mac/istatmenus/
 ## firefox
 ## edge
 
+## Rectangle
+https://rectangleapp.com
 
+## Input Source Pro
+https://inputsource.pro
 
 
 
