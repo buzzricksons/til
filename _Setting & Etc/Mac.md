@@ -5,9 +5,9 @@
 * 設定 → トラックパッド → タップでクリックを有効にする
 * Tracking speed -> 5 from fast
 
-## Mission Control
+## Window & Apps
 
-設定 → ミッションコントロール → 最新の使用状況に基づいて操作スペースを自動的に並べ替えるのチェックを外す
+設定 → ミッションコントロール → uncheck to `Automatically rearrange Spaces based on most recent use`
 
 ## Dock自動最小化
 
@@ -238,12 +238,6 @@ source ~/.bash_profile
 
 Then, in your iTerm2 Preferences > Profiles > Terminal > Report Terminal Type, set to either xterm-256color or xterm
 Close iTerm2, restart it and type ls. That did the trick for me.
-
-### terminal customize
-↓recommend
-
-- https://beomi.github.io/2017/07/07/Beautify-ZSH/
-- https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
 
 
 ### 터미널 단축키
