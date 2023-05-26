@@ -72,6 +72,58 @@ alias oraclejdk8_73='export JAVA_HOME=$ORACLE_JDK_8_73_HOME'
 ```
 
 
+# brew
+### cask update
+```
+$ brew tap homebrew/cask
+$ brew tap homebrew/cask-versions
+```
+
+### install
+ ``
+$ brew install openjdk@8
+$ sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk
+
+$ brew install openjdk@11
+sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+
+$ brew install openjdk@17
+sudo ln -sfn /usr/local/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+ ```
+
+### version change
+```
+$ vi ~/.zshrc
+```
+
+add belows
+
+```
+# Path for Java
+export JAVA_HOME_8=$(/usr/libexec/java_home -v1.8)
+export JAVA_HOME_11=$(/usr/libexec/java_home -v11)
+export JAVA_HOME_17=$(/usr/libexec/java_home -v17)
+
+# Java 8
+#export JAVA_HOME=$JAVA_HOME_8
+
+# Java 11
+export JAVA_HOME=$JAVA_HOME_11
+
+# Java 17
+#export JAVA_HOME=$JAVA_HOME_17
+```
+
+apply
+```
+$ source ~/.zshrc
+$ java -version
+```
+
+
+
+
+
 
 
 
