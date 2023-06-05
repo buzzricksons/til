@@ -258,6 +258,33 @@ Close iTerm2, restart it and type ls. That did the trick for me.
 | 오른쪽 방향으로 한 문자 삭제 | 오른쪽 방향 삭제(또는 Fn-Delete 사용) |
 | 두 문자의 위치를 서로 바꾸기 |  Control-T|
 
+### 유저 이름 변경, 패스 변경
+#### 패스 삭제
+
+$ vi ~/.zshrc
+
+```shell
+add to belows at end of file
+prompt_context() { 
+	if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then 
+    	prompt_segment black default "%(!.%{%F{yellow}%}.)$USER" 
+    fi 
+}
+```
+
+
+#### 패스 삭제 & 유저이름 변경
+$ vi ~/.zshrc
+
+```shell
+add to belows at end of file
+prompt_context() { 
+	if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then 
+    	prompt_segment black default "my name" 
+    fi 
+}
+```
+
 
 ## NeoVimのインストール
 
