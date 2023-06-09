@@ -1,1 +1,0 @@
-https://www.oracle.co.jp/jdt2016/pdf/5-D.pdf
