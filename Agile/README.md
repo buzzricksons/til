@@ -1,1 +1,0 @@
-![](https://github.com/buzzricksons/til/blob/master/_Image/_LINK/21.png)
