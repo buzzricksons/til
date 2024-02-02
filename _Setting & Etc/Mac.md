@@ -194,8 +194,7 @@ sudo npm install gulp-cli -g
 $ brew install tree
 ```
 
-## spectacleインストール
-
+## spectacleインストール(비추천. Rectangle사용을 추천합니다.)
 https://www.spectacleapp.com/
 
 ## iterm2のインストール
